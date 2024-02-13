@@ -1,14 +1,14 @@
-import omnifoodImg from '../images/projects/omnifood.png';
-import guessImg from '../images/projects/guess.png';
-import splitterImg from '../images/projects/splitter.png';
-import devfinderImg from '../images/projects/devfinder.png';
-import pizzaImg from '../images/projects/pizzaApp.png';
-import quizImg from '../images/projects/quiz.png';
-import todoappImg from '../images/projects/todoapp.png';
-// import bitsbobsImg from '../images/projects/bitsbobs.png';
-import expensetrackerImg from '../images/projects/expensetracker.png';
-import proshopImg from '../images/projects/proshop-product.png';
-// import elMiradorImg from '../images/projects/el-mirador.png';
+import omnifoodImg from '@/public/images/projects/omnifood.png';
+import guessImg from '@/public/images/projects/guess.png';
+import splitterImg from '@/public/images/projects/splitter.png';
+import devfinderImg from '@/public/images/projects/devfinder.png';
+import pizzaImg from '@/public/images/projects/pizzaApp.png';
+import quizImg from '@/public/images/projects/quiz.png';
+import todoappImg from '@/public/images/projects/todoapp.png';
+// import bitsbobsImg from '@/public/images/projects/bitsbobs.png';
+import expensetrackerImg from '@/public/images/projects/expensetracker.png';
+import proshopImg from '@/public/images/projects/proshop-product.png';
+// import elMiradorImg from '@/public/images/projects/el-mirador.png';
 
 const projectsData = [
   {
@@ -187,6 +187,6 @@ const projectsData = [
   //   codeURL: 'Private repo for now, coming soon!',
   //   categories: ['Professional'],
   // },
-];
+] as const;
 
 export default projectsData;
