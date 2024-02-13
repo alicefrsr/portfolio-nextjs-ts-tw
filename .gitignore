@@ -2,6 +2,8 @@
 
 # images
 /public/images
+# data
+/lib
 
 
 # dependencies
