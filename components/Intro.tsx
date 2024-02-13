@@ -11,7 +11,7 @@ import pix from '../public/images/me/bw_LR_portrait.jpg';
 
 export default function Intro() {
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+    <section className='mb-28 max-w-[50rem] text-center sm:mb-0 py-28'>
       <div className='flex items-center justify-center'>
         <div className='relative'>
           <motion.div
@@ -55,12 +55,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, I'm Anne.
+        <h1>Hi, I'm Anne.</h1>
         <p className='text-base'>
           I'm a self-taught developer focused on building responsive and
           accessible web apps with <strong>React</strong> and{' '}
           <strong>Tailwind</strong>, as well as integrating back-end
-          technologies with <strong>Node</strong>, <strong>Express</strong>
+          technologies with <strong>Node</strong>, <strong>Express </strong>
           and <strong>MongoDB</strong>.
         </p>
       </motion.div>
