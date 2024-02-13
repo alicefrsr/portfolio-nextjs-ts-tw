@@ -56,7 +56,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <h1>Hi, I'm Anne.</h1>
-        <p className='text-base'>
+        <p className='text-[1.4rem] py-4 leading-8'>
           I'm a self-taught developer focused on building responsive and
           accessible web apps with <strong>React</strong> and{' '}
           <strong>Tailwind</strong>, as well as integrating back-end
@@ -67,7 +67,7 @@ export default function Intro() {
 
       {/* Links to projects, CV, socials */}
       <motion.div
-        className='flex flex-col sm:flex-row items-center justify-center text-lg  font-medium gap-4 px-4'
+        className='flex flex-col sm:flex-row items-center justify-center text-lg font-medium gap-4 px-4'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -85,14 +85,14 @@ export default function Intro() {
         </Link>
 
         <a
-          className='shadow-sm group bg-white px-7 py-3 flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200 '
+          className='shadow-md group bg-white px-7 py-3 flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200 '
           href='/CV.pdf'
           download
         >
           Download CV
           <HiDownload
             aria-hidden='true'
-            className='opacity-80 group-hover:translate-y-1 duration-200'
+            className='opacity-80 group-hover:translate-x-1 duration-200'
           />
         </a>
 
@@ -102,7 +102,7 @@ export default function Intro() {
           href='https://www.linkedin.com/in/annemonnehay/'
           target='_blank'
           rel='noreferrer'
-          className='bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 shadow-sm hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200'
+          className='bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 shadow-md hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200'
           aria-hidden='true'
         >
           <IoLogoLinkedin size={28} />
@@ -115,7 +115,7 @@ export default function Intro() {
           target='_blank'
           rel='noreferrer'
           // className='icon-link'
-          className='shadow-sm bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200  '
+          className='shadow-md bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200  '
           aria-hidden='true'
         >
           <FaGithubSquare size={28} />

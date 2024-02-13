@@ -20,18 +20,19 @@ export default function About() {
       <p className='mb-3'>
         I left after Brexit in pursuit of new horizons and sailing adventures,
         which led me to the Côte d&#39;Azur in France, the Costa Brava and
-        Mallorca in Spain, juggling short editing contracts with my regular
-        clients back in London during the winter, with working as a
+        Mallorca in Spain, juggling working as a
         <strong> deck/stew, crew cook </strong> or
         <strong> junior engineer </strong>
         on private superyachts during the summer in the Mediterranean
-        (2017-2020).
+        (2017-2020), with short editing contracts with my regular clients back
+        in London during the winter.
       </p>
       <p>
         As the world shut down during the pandemic in 2020, it was a chance to
         explore what <strong>programming</strong> was all about. Two months of
-        Python during lockdown got me hooked. For a while I juggled 3 lives but
-        today I just build things for the web and add to my skillset every day.
+        Python during lockdown got me hooked. Since 2022 I've been focusing on
+        building things for the web and adding to my skillset full-time every
+        day.
       </p>
     </motion.section>
   );

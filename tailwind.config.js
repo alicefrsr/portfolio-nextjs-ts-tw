@@ -26,10 +26,10 @@ module.exports = {
         fira: 'Fira Code, monospace ',
       },
       colors: {
-        primaryBlue: '#bde2f7',
-        secondaryColor: '#1b9075',
+        primaryBlue: '#138cd3',
+        secondaryBlue: '#bde2f7',
         secondaryColorLight: '#64ffda',
-        greenDark: '#198068',
+        greenDark: '#',
         white: '#fff',
         greyDark: '#343a40',
         greyMedium: '#9095a7',
