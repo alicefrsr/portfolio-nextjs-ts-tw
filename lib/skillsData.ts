@@ -1,43 +1,32 @@
-export const skillsDaily = [
-  'MacOS',
-  'VS Code',
-  'Git',
-  'Github',
-  'Command Line',
+export const skills = [
   'HTML5',
   'CSS3',
+  'CSS Modules',
   'Tailwindcss',
   'Javascript',
+  'TypeScript',
+  'Python',
   'React',
-  'React Testing Library',
-];
-
-export const skillsRegular = [
-  'CSS Modules',
   'React Router',
   'Tanstack Query',
   'Redux',
   'RESTful APIs',
   'Postman',
   'Node.js',
-  'npm',
   'Express',
   'MongoDB',
   'Responsive',
   'Web accessibility',
   'WCAG',
-  'Axe DevTools',
-  // 'axe Accessibility Linter',
-  'axe-core-react',
+  'Git',
+  'Github',
 ];
 
 export const skillsIntro = [
-  'Linux',
-  'Windows',
+  'Next',
   'Java',
   'Swift',
   'SwiftUI',
-  'Python',
   'Bootstrap',
   'Styled Components',
   'Supabase',
@@ -46,8 +35,6 @@ export const skillsIntro = [
 export const skillsNow = [
   'React Testing Library',
   'Jest / Vitest',
-  'Typescript',
-  'Python',
   'Web accessibility',
 ];
 // const skillsToDo = [

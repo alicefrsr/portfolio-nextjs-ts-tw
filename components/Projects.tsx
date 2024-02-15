@@ -18,10 +18,10 @@ export default function Projects() {
   //     setActiveSection('Projects');
   //   }
   // }, [inView, setActiveSection, timeOfLastClick]);
-  const { ref } = useSectionInView('Projects');
+  const { ref } = useSectionInView('Projects', 0);
 
   return (
-    <section ref={ref} id='projects' className='scroll-mt-28'>
+    <section ref={ref} id='projects' className='scroll-mt-28 mb-28'>
       <SectionHeading>Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
