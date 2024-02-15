@@ -9,9 +9,29 @@ import { IoLogoLinkedin } from 'react-icons/io5';
 import { FaGithubSquare } from 'react-icons/fa';
 import pix from '../public/images/me/bw_LR_portrait.jpg';
 
+// import { useActiveSessionContext } from '@/context/ActiveSectionContext';
+// import { useInView } from 'react-intersection-observer';
+import { useSectionInView } from '@/lib/hooks';
+
 export default function Intro() {
+  // refactored, custom
+  // const { ref, inView } = useInView({
+  //   threshold: 0.5,
+  // });
+  // const { setActiveSection, timeOfLastClick } = useActiveSessionContext();
+
+  // useEffect(() => {
+  //   if (inView && Date.now() - timeOfLastClick > 1000) {
+  //     setActiveSection('Home');
+  //   }
+  // }, [inView, setActiveSection, timeOfLastClick]);
+  const { ref } = useSectionInView('Home', 0.5);
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0 py-28'>
+    <section
+      ref={ref}
+      id='intro'
+      className='mb-28 pb-56 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'
+    >
       <div className='flex items-center justify-center'>
         <div className='relative'>
           <motion.div
