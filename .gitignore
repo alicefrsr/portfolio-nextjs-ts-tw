@@ -3,9 +3,6 @@
 # images
 
 
-/components/Experience.tsx
-/lib/experienceData.ts
-
 
 # dependencies
 /node_modules
