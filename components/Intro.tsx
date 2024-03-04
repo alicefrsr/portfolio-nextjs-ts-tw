@@ -94,7 +94,7 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <Link href=''>
+        {/* <Link href=''>
           <div className='bg-gray-900 text-white px-7 py-3 flex items-center rounded-full gap-2 group  hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200 '>
             View projects
             <HiArrowNarrowRight
@@ -102,17 +102,17 @@ export default function Intro() {
               className='opacity-80 group-hover:rotate-90 duration-200'
             />
           </div>
-        </Link>
+        </Link> */}
 
         <a
-          className='shadow-md group bg-white px-7 py-3 flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110  hover:shadow-gray-400 active:scale-105 duration-200 '
+          className='shadow-md group bg-gray-900 text-white px-7 py-3 flex items-center rounded-full gap-2 hover:cursor-pointer outline-primaryBlue focus:scale-110 hover:scale-110 active:scale-105  hover:shadow-gray-400  duration-200 '
           href='/CV.pdf'
           download
         >
           Download CV
           <HiDownload
             aria-hidden='true'
-            className='opacity-80 group-hover:translate-x-1 duration-200'
+            className='opacity-80 group-hover:translate-y-1 duration-200'
           />
         </a>
 
@@ -122,7 +122,7 @@ export default function Intro() {
           href='https://www.linkedin.com/in/annemonnehay/'
           target='_blank'
           rel='noreferrer'
-          className='bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 shadow-md hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-gray-400 active:scale-105 duration-200'
+          className='bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 shadow-md hover:cursor-pointer  outline-primaryBlue   focus:scale-110 hover:scale-110 hover:shadow-gray-400 active:scale-105 duration-200 '
           aria-hidden='true'
         >
           <IoLogoLinkedin size={28} />

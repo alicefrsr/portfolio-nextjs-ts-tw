@@ -7,7 +7,8 @@ export default function Footer() {
         &copy; 2024 Anne M. All rights reserved.
       </small>
       <p className='text-xs'>
-        Built with React & Next.js, TypeScript, Tailwind CSS, Framer-Motion.{' '}
+        Built with React & Next.js (App Router and Server Actions), TypeScript,
+        Tailwind CSS, Framer-Motion, Resend, hosted on Vercel.{' '}
       </p>
     </footer>
   );

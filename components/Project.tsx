@@ -35,7 +35,7 @@ export default function Project({
         opacity: opacityProgress,
       }}
     >
-      <article className='sm:px-4 sm:py-8 bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center  sm:gap-8 sm:group-even:flex-row-reverse  hover:bg-gray-200  transition'>
+      <article className='sm:px-4 sm:py-8 bg-gray-100 max-w-[42rem] borderBlack overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center  sm:gap-8 sm:group-even:flex-row-reverse  hover:bg-gray-200  transition'>
         {/* Image */}
         <div className=''>
           <Image
