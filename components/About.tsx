@@ -37,7 +37,7 @@ export default function About() {
         corporate videos, commercials, 2D/3D animation and VFX editing.
       </p>
       <p className='mb-3'>
-        I left after Brexit in pursuit of new horizons and sailing adventures,
+        I left after Brexit in pursuit of new challenges and sailing adventures,
         which led me to the Côte d&#39;Azur in France, the Costa Brava and
         Mallorca in Spain, juggling working as a
         <strong> deck/stew, crew cook </strong> or

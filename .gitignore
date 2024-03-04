@@ -2,8 +2,10 @@
 
 # images
 /public/images
-# data
-/lib
+
+
+/components/Experience.tsx
+/lib/experienceData.ts
 
 
 # dependencies

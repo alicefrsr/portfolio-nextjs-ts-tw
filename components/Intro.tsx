@@ -105,7 +105,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className='shadow-md group bg-white px-7 py-3 flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200 '
+          className='shadow-md group bg-white px-7 py-3 flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110  hover:shadow-gray-400 active:scale-105 duration-200 '
           href='/CV.pdf'
           download
         >
@@ -122,7 +122,7 @@ export default function Intro() {
           href='https://www.linkedin.com/in/annemonnehay/'
           target='_blank'
           rel='noreferrer'
-          className='bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 shadow-md hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200'
+          className='bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 shadow-md hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-gray-400 active:scale-105 duration-200'
           aria-hidden='true'
         >
           <IoLogoLinkedin size={28} />
@@ -135,7 +135,7 @@ export default function Intro() {
           target='_blank'
           rel='noreferrer'
           // className='icon-link'
-          className='shadow-md bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-gray-400 active:scale-105 duration-200  '
+          className='shadow-md bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110  hover:shadow-gray-400 active:scale-105 duration-200  '
           aria-hidden='true'
         >
           <FaGithubSquare size={28} />
