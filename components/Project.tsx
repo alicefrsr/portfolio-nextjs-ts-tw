@@ -5,7 +5,8 @@ import projectsData from '@/lib/projectsData';
 import Image from 'next/image';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import { LuExternalLink } from 'react-icons/lu';
-import { FaGithubSquare } from 'react-icons/fa';
+// import { FaGithubSquare } from 'react-icons/fa';
+import { FiGithub } from 'react-icons/fi';
 import Link from 'next/link';
 
 type ProjectsProps = (typeof projectsData)[number];
@@ -35,14 +36,14 @@ export default function Project({
         opacity: opacityProgress,
       }}
     >
-      <article className='sm:px-4 sm:py-8 bg-gray-100 max-w-[42rem] borderBlack overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center  sm:gap-8 sm:group-even:flex-row-reverse  hover:bg-gray-200  transition'>
+      <article className='sm:px-4 sm:py-8 bg-gray-100 max-w-[42rem] borderBlack overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center  sm:gap-8 sm:group-even:flex-row-reverse  hover:bg-gray-200  transition dark:bg-white/10 dark:hover:bg-white/20  dark:text-white'>
         {/* Image */}
         <div className=''>
           <Image
             src={imageURL}
             alt={title}
             quality={95}
-            className='sm:w-[16.25rem] sm:shadow-lg sm:rounded-lg sm:group-hover:scale-110 transition'
+            className='sm:w-[16.25rem] sm:shadow-lg sm:rounded-lg  transition'
           />
         </div>
 
@@ -57,7 +58,7 @@ export default function Project({
                 target='_blank'
                 rel='noreferrer'
                 title='Live demo (Opens in new tab)'
-                className='flex items-center  hover:cursor-pointer outline-none focus:text-[#138cd3] hover:text-[#138cd3] active:text-[#138cd3]duration-200'
+                className='flex items-center  hover:cursor-pointer outline-none focus:text-focusColor hover:text-primaryLight active:text-primaryLight duration-200'
               >
                 <LuExternalLink size={25} />
                 <span className='sr-only'>Live demo. Opens in new tab</span>
@@ -68,21 +69,23 @@ export default function Project({
                 target='_blank'
                 rel='noreferrer'
                 title='Github (Opens in new tab)'
-                className='flex items-center  hover:cursor-pointer outline-none focus:text-[#138cd3] hover:text-[#138cd3] active:text-[#138cd3]duration-200'
+                className='flex items-center  hover:cursor-pointer outline-none focus:text-focusColor hover:text-primaryLight active:text-primaryLight duration-200'
               >
-                <FaGithubSquare size={25} />
+                <FiGithub size={24} />
                 <span className='sr-only'>Github (Opens in new tab)</span>
               </a>
             </div>
           </div>
 
-          <p className='mt-2 leading-relaxed text-gray-700 pb-4'>{summary}</p>
+          <p className='mt-2 leading-relaxed text-gray-700 pb-4 dark:text-white/70'>
+            {summary}
+          </p>
           <a className='pb-4'>See details</a>
           <ul className='flex flex-wrap mt-4 gap-1 sm:mt-auto'>
             {tech.map((tech, index) => (
               <li
                 key={index}
-                className='font-fira bg-[#138cd3] text-white px-2 py-1 text-xs tracking-wide rounded-md'
+                className='font-fira bg-[#138cd3] dark:bg-[#684A63] text-white px-2 py-1 text-xs tracking-wide rounded-md'
               >
                 {tech}
               </li>

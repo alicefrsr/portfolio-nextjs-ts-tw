@@ -5,6 +5,8 @@ export const skills = [
   'Tailwindcss',
   'Javascript',
   'TypeScript',
+  'Git',
+  'Github',
   'Python',
   'React',
   'React Router',
@@ -18,8 +20,6 @@ export const skills = [
   'Responsive',
   'Web accessibility',
   'WCAG',
-  'Git',
-  'Github',
 ];
 
 export const skillsIntro = [
@@ -47,3 +47,15 @@ export const skillsNow = [
 //   'Solidity',
 // ];
 export const languages = ['English', 'French', 'Spanish'];
+export const softSkills = [
+  'Curious',
+  'Adaptable',
+  'Versatile',
+  'Teamwork',
+
+  'Resilient',
+  'Life-long learner',
+  'Attention to detail',
+  'Resourceful',
+  '20+ years of satisfied clients',
+];

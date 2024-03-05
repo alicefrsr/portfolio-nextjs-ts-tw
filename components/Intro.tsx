@@ -6,8 +6,11 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { HiArrowNarrowRight, HiDownload } from 'react-icons/hi';
 import { IoLogoLinkedin } from 'react-icons/io5';
-import { FaGithubSquare } from 'react-icons/fa';
+// import { FaGithubSquare } from 'react-icons/fa';
+import { FiGithub } from 'react-icons/fi';
+import { LiaLinkedinIn } from 'react-icons/lia';
 import pix from '../public/images/me/bw_LR_portrait.jpg';
+import SectionHeading from './SectionHeading';
 
 // import { useActiveSessionContext } from '@/context/ActiveSectionContext';
 // import { useInView } from 'react-intersection-observer';
@@ -75,7 +78,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <h1>Hi, I'm Anne.</h1>
+        <SectionHeading>Hi, I'm Anne.</SectionHeading>
+
         <p className='text-[1.4rem] py-4 leading-8'>
           I'm a self-taught developer focused on building responsive and
           accessible web apps with <strong>React</strong> and{' '}
@@ -105,7 +109,7 @@ export default function Intro() {
         </Link> */}
 
         <a
-          className='shadow-md group bg-gray-900 text-white px-7 py-3 flex items-center rounded-full gap-2 hover:cursor-pointer outline-primaryBlue focus:scale-110 hover:scale-110 active:scale-105  hover:shadow-gray-400  duration-200 '
+          className='group bg-gray-900 text-white px-7 py-3 flex items-center rounded-full gap-2 border-2 border-transparent outline-none hover:cursor-pointer focus:scale-110 hover:scale-110 active:scale-105 focus:border-focusColor duration-200 shadow-md dark:shadow-black/30'
           href='/CV.pdf'
           download
         >
@@ -122,10 +126,10 @@ export default function Intro() {
           href='https://www.linkedin.com/in/annemonnehay/'
           target='_blank'
           rel='noreferrer'
-          className='bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 shadow-md hover:cursor-pointer  outline-primaryBlue   focus:scale-110 hover:scale-110 hover:shadow-gray-400 active:scale-105 duration-200 '
+          className='shadow-md dark:shadow-black/30 bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer  outline-none   border-2 border-transparent focus:border-focusColor focus:scale-110 hover:scale-110  active:scale-105 hover:shadow-gray-400 duration-200 dark:bg-white/10  dark:text-white/80'
           aria-hidden='true'
         >
-          <IoLogoLinkedin size={28} />
+          <LiaLinkedinIn size={28} />
           <span className='sr-only'>LinkedIn (Opens in new tab)</span>
         </a>
 
@@ -135,10 +139,10 @@ export default function Intro() {
           target='_blank'
           rel='noreferrer'
           // className='icon-link'
-          className='shadow-md bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer outline-none focus:scale-110 hover:scale-110  hover:shadow-gray-400 active:scale-105 duration-200  '
+          className='shadow-md dark:shadow-black/30 bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer  outline-none  border-2 border-transparent  focus:border-focusColor focus:scale-110 hover:scale-110 hover:shadow-gray-400 active:scale-105 duration-200 dark:bg-white/10  dark:text-white/80 '
           aria-hidden='true'
         >
-          <FaGithubSquare size={28} />
+          <FiGithub size={28} />
           <span className='sr-only'>Github (Opens in new tab)</span>
         </a>
       </motion.div>

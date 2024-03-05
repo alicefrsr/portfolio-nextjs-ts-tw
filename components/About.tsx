@@ -34,24 +34,26 @@ export default function About() {
       <p className='mb-3'>
         In a previous life I was a <strong>film editor</strong> based in London
         for 20 years, working on TV & feature documentaries, music promos,
-        corporate videos, commercials, 2D/3D animation and VFX editing.
+        corporate videos, and was a VFX editor on award-winning animation shorts
+        and commercials.
       </p>
       <p className='mb-3'>
         I left after Brexit in pursuit of new challenges and sailing adventures,
-        which led me to the Côte d&#39;Azur in France, the Costa Brava and
-        Mallorca in Spain, juggling working as a
-        <strong> deck/stew, crew cook </strong> or
-        <strong> junior engineer </strong>
-        on private superyachts during the summer in the Mediterranean
-        (2017-2020), with short editing contracts with my regular clients back
-        in London during the winter.
+        which led me to the Mediterranean. For a while I juggled working as a
+        <strong> crew </strong>
+        on private superyachts during the summer (2017-2020), with short editing
+        contracts with my regular clients in London during the winter.
       </p>
       <p>
-        As the world shut down during the pandemic in 2020, it was a chance to
-        explore what <strong>programming</strong> was all about. Two months of
+        I discovered coding in my travels and as the world shut down during the
+        pandemic in 2020, it was a chance to dive a little deeper. Two months of
         Python during lockdown got me hooked. Since 2022 I've been focusing on
-        building things for the web and adding to my skillset full-time every
-        day.
+        building things for the web.
+      </p>
+      <p>
+        Currently my focus is to continue to expand my skillset by integrating{' '}
+        <strong>tests</strong> in my projects, learning React Testing Library,
+        Cypress, Jest/ Vitest, as well as keeping accessibility in mind.
       </p>
     </motion.section>
   );

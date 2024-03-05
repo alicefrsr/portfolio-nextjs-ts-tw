@@ -2,13 +2,11 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className='mb-10 px-4 text-center text-gray-500'>
-      <small className='mb-2 text-xs block'>
-        &copy; 2024 Anne M. All rights reserved.
-      </small>
+    <footer className='mb-10 px-4 w-1/2 mx-auto text-center text-gray-500 dark:text-gray-400'>
       <p className='text-xs'>
-        Built with React & Next.js (App Router and Server Actions), TypeScript,
-        Tailwind CSS, Framer-Motion, Resend, hosted on Vercel.{' '}
+        Built for fun by Anne M. with React & Next.js (App Router and Server
+        Actions), TypeScript, TailwindCSS, Framer-Motion, Resend, hosted on
+        Vercel.{' '}
       </p>
     </footer>
   );

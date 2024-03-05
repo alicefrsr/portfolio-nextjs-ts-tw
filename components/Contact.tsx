@@ -31,13 +31,16 @@ export default function Contact() {
       }}
       viewport={{ once: true }}
     >
-      <SectionHeading>Contact</SectionHeading>
-      <p className='text-gray-700'>
+      <SectionHeading>Contact me</SectionHeading>
+      <p className='text-gray-700 dark:text-white/80'>
         Please contact me directly on{' '}
-        <a className='underline' href='mailto:alicefrsr@gmail.com'>
+        <a
+          className='underline  focus:outline-primaryLight '
+          href='mailto:alicefrsr@gmail.com'
+        >
           alicefrsr@gmail.com
         </a>{' '}
-        or through this form.
+        or using this form.
       </p>
       <form
         action={async (formData) => {
@@ -49,10 +52,10 @@ export default function Contact() {
           }
           toast.success('Email sent successfully! :)');
         }}
-        className='mt-10 flex flex-col'
+        className='mt-10 flex flex-col gap-4 dark:text-black'
       >
         <input
-          className='h-14 rounded-lg borderBlack p-4'
+          className='h-14 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all focus:outline-primaryLight'
           type='email'
           name='senderEmail'
           placeholder='Your email'
@@ -60,7 +63,7 @@ export default function Contact() {
           maxLength={500}
         />
         <textarea
-          className='h-52 my-3 rounded-lg borderBlack p-4'
+          className='h-52 mb-3 rounded-lg borderBlack p-4  dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all  focus:outline-primaryLight'
           placeholder='Your message'
           name='message'
           required
