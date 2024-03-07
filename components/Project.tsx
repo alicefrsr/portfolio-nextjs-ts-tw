@@ -36,61 +36,61 @@ export default function Project({
         opacity: opacityProgress,
       }}
     >
-      <article className='sm:px-4 sm:py-8 bg-gray-100 max-w-[42rem] borderBlack overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center  sm:gap-8 sm:group-even:flex-row-reverse  hover:bg-gray-200  transition dark:bg-white/10 dark:hover:bg-white/20  dark:text-white'>
+      <article className='sm:px-8 sm:py-8 bg-[#C7E2F0] max-w-[42rem] borderBlack overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center  sm:gap-8 sm:group-even:flex-row-reverse  transition dark:bg-white/10 dark:hover:bg-white/20  dark:text-white'>
         {/* Image */}
         <div className=''>
           <Image
             src={imageURL}
             alt={title}
             quality={95}
-            className='sm:w-[16.25rem] sm:shadow-lg sm:rounded-lg  transition'
+            className='sm:w-[18.25rem] sm:shadow-lg sm:rounded-lg '
           />
         </div>
 
         {/* Text */}
-        <div className=' pt-4 px-5 sm:px-0 pb-7 sm:max-w-[50%] flex flex-col h-full '>
-          <div className='flex justify-between pb-4'>
+        <div className=' pt-4 px-5 gap-6 sm:px-0 pb-7 sm:max-w-[50%] flex flex-col h-full '>
+          <div className='flex justify-between '>
             <h3 className='text-2xl font-semibold'>{title}</h3>
-            {/* External links */}
-            <div className='flex justify-center gap-2'>
-              <a
-                href={demoURL}
-                target='_blank'
-                rel='noreferrer'
-                title='Live demo (Opens in new tab)'
-                className='flex items-center  hover:cursor-pointer outline-none focus:text-focusColor hover:text-primaryLight active:text-primaryLight duration-200'
-              >
-                <LuExternalLink size={25} />
-                <span className='sr-only'>Live demo. Opens in new tab</span>
-              </a>
-
-              <a
-                href={codeURL}
-                target='_blank'
-                rel='noreferrer'
-                title='Github (Opens in new tab)'
-                className='flex items-center  hover:cursor-pointer outline-none focus:text-focusColor hover:text-primaryLight active:text-primaryLight duration-200'
-              >
-                <FiGithub size={24} />
-                <span className='sr-only'>Github (Opens in new tab)</span>
-              </a>
-            </div>
           </div>
 
-          <p className='mt-2 leading-relaxed text-gray-700 pb-4 dark:text-white/70'>
-            {summary}
+          <p className='mt-2 leading-relaxed text-gray-700  dark:text-white/70'>
+            {desc}
           </p>
-          <a className='pb-4'>See details</a>
-          <ul className='flex flex-wrap mt-4 gap-1 sm:mt-auto'>
+          {/* <a className='pb-4'>See details</a> */}
+          <ul className='flex flex-wrap  gap-1 sm:mt-auto'>
             {tech.map((tech, index) => (
               <li
                 key={index}
-                className='font-fira bg-[#138cd3] dark:bg-[#684A63] text-white px-2 py-1 text-xs tracking-wide rounded-md'
+                className='font-fira  bg-gray-800 dark:bg-[#684A63] text-white px-2 py-1 text-xs tracking-wide rounded-md'
               >
                 {tech}
               </li>
             ))}
           </ul>
+          {/* External links */}
+          <div className='flex gap-2'>
+            <a
+              href={demoURL}
+              target='_blank'
+              rel='noreferrer'
+              title='Live demo (Opens in new tab)'
+              className='flex items-center  hover:cursor-pointer outline-none focus:text-focusColor hover:text-focusColor active:text-focusColor duration-200'
+            >
+              <LuExternalLink size={25} />
+              <span className='sr-only'>Live demo. Opens in new tab</span>
+            </a>
+
+            <a
+              href={codeURL}
+              target='_blank'
+              rel='noreferrer'
+              title='Github (Opens in new tab)'
+              className='flex items-center  hover:cursor-pointer outline-none focus:text-focusColor hover:text-focusColor active:text-focusColor duration-200'
+            >
+              <FiGithub size={24} />
+              <span className='sr-only'>Github (Opens in new tab)</span>
+            </a>
+          </div>
         </div>
       </article>
     </motion.div>

@@ -35,13 +35,13 @@ export default function Skills() {
         {skills.map((skill: string, index: number) => (
           <motion.li
             key={index}
-            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-primaryLight dark:border-primaryDark  dark:bg-white/10 dark:text-white/80'
+            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-[#C7E2F0] dark:border-primaryDark  dark:bg-white/10 dark:text-white/80'
             variants={fadeInAnimationVariants}
             initial='initial'
             whileInView='animate'
-            // viewport={{
-            //   once: true,
-            // }}
+            viewport={{
+              once: true,
+            }}
             custom={index}
           >
             {skill}
@@ -52,7 +52,7 @@ export default function Skills() {
         {languages.map((skill: string, index: number) => (
           <motion.li
             key={index}
-            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-black/10  dark:bg-white/10 dark:text-white/80'
+            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-[#ffdfc3]  dark:bg-white/10 dark:text-white/80'
             variants={fadeInAnimationVariants}
             initial='initial'
             whileInView='animate'
@@ -69,7 +69,7 @@ export default function Skills() {
         {softSkills.map((skill: string, index: number) => (
           <motion.li
             key={index}
-            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-black/40 dark:border-gray-500  dark:bg-white/10 dark:text-white/80'
+            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-black/20 dark:border-gray-500  dark:bg-white/10 dark:text-white/80'
             variants={fadeInAnimationVariants}
             initial='initial'
             whileInView='animate'

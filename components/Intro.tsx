@@ -80,12 +80,16 @@ export default function Intro() {
       >
         <SectionHeading>Hi, I'm Anne.</SectionHeading>
 
-        <p className='text-[1.4rem] py-4 leading-8'>
+        <p className='text-[1.4rem] pt-4 leading-8'>
           I'm a self-taught developer focused on building responsive and
           accessible web apps with <strong>React</strong> and{' '}
           <strong>Tailwind</strong>, as well as integrating back-end
-          technologies with <strong>Node</strong>, <strong>Express </strong>
+          technologies with <strong>Node.js</strong>, <strong>Express </strong>
           and <strong>MongoDB</strong>.
+        </p>
+        <p className='text-[1.4rem] pb-4 leading-8'>
+          Endlessly curious, I'm also exploring the world of NoCode with{' '}
+          <strong>Bubble</strong>.
         </p>
       </motion.div>
 
