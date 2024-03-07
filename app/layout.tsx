@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'Anne | Portfolio',
   description:
-    'React Developer. Check out my portfolio, build with Next.js, Typescript, TailwindCSS & FramerMotion.',
+    "React Developer. Check out some of the things I've built while learning how to code. Portfolio built with Next.js, Typescript, TailwindCSS & FramerMotion.",
 };
 
 export default function RootLayout({

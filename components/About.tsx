@@ -53,7 +53,7 @@ export default function About() {
         , lending on hand on deck, the interior and the engine room. For a while
         I juggled a life at sea during the summer with working on short editing
         contracts with my regular clients in London during the winter
-        (2017-2021) .
+        (2017-2021).
       </p>
       <p className=' dark:text-gray-300'>
         I discovered{' '}
@@ -66,7 +66,7 @@ export default function About() {
         lockdown got me hooked.
       </p>
       <p>
-        Since 2022 I've been <strong>building things for the web</strong> .
+        Since 2022 I've been <strong>building things for the web</strong>.
         Currently my focus is to continue to expand my skillset by integrating{' '}
         <strong>tests</strong> in my projects, learning React Testing Library,
         Cypress, Jest/Vitest, as well as keeping accessibility in mind, and to
