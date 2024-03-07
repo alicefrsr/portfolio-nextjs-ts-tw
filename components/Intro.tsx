@@ -3,21 +3,16 @@
 import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { HiArrowNarrowRight, HiDownload } from 'react-icons/hi';
-import { IoLogoLinkedin } from 'react-icons/io5';
-// import { FaGithubSquare } from 'react-icons/fa';
+
+// import { HiDownload } from 'react-icons/hi';
 import { FiGithub } from 'react-icons/fi';
 import { LiaLinkedinIn } from 'react-icons/lia';
 import pix from '../public/images/me/bw_LR_portrait.jpg';
-import SectionHeading from './SectionHeading';
 
-// import { useActiveSessionContext } from '@/context/ActiveSectionContext';
-// import { useInView } from 'react-intersection-observer';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
-  // refactored, custom
+  // refactored: custom hook useSectionInView()
   // const { ref, inView } = useInView({
   //   threshold: 0.5,
   // });
@@ -57,20 +52,6 @@ export default function Intro() {
               className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'
             />
           </motion.div>
-
-          {/* <motion.span
-            className='absolute bottom-0 left-0 text-4xl'
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: 'spring',
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span> */}
         </div>
       </div>
       <motion.div
@@ -78,7 +59,6 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {/* <SectionHeading></SectionHeading> */}
         <h1 className='mb-8'>👋 Hi, I'm Anne </h1>
 
         <p className='text-[1.4rem] pt-4 leading-8'>
@@ -112,7 +92,7 @@ export default function Intro() {
             />
           </div>
         </Link> */}
-
+        {/* 
         <a
           className='group bg-gray-900 text-white px-7 py-3 flex items-center rounded-full gap-2 border-2 border-transparent outline-none hover:cursor-pointer focus:scale-110 hover:scale-110 active:scale-105 focus:border-focusColor duration-200 shadow-md dark:shadow-black/30'
           href='/CV.pdf'
@@ -123,7 +103,7 @@ export default function Intro() {
             aria-hidden='true'
             className='opacity-80 group-hover:translate-y-1 duration-200'
           />
-        </a>
+        </a> */}
 
         {/* Socials icons */}
         <a

@@ -5,7 +5,6 @@ import projectsData from '@/lib/projectsData';
 import Image from 'next/image';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import { LuExternalLink } from 'react-icons/lu';
-// import { FaGithubSquare } from 'react-icons/fa';
 import { FiGithub } from 'react-icons/fi';
 import Link from 'next/link';
 
@@ -36,7 +35,7 @@ export default function Project({
         opacity: opacityProgress,
       }}
     >
-      <article className='sm:px-8 sm:py-8 bg-[#C7E2F0] max-w-[42rem] borderBlack overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center  sm:gap-8 sm:group-even:flex-row-reverse  transition dark:bg-white/10 dark:hover:bg-white/20  dark:text-white'>
+      <article className='sm:px-8 sm:py-8 bg-secondaryLight hover:bg-secondaryLight/20 max-w-[42rem] borderBlack overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center sm:gap-8 sm:group-even:flex-row-reverse  transition dark:bg-white/10 dark:hover:bg-white/20  dark:text-white'>
         {/* Image */}
         <div className=''>
           <Image
@@ -56,12 +55,11 @@ export default function Project({
           <p className='mt-2 leading-relaxed text-gray-700  dark:text-white/70'>
             {desc}
           </p>
-          {/* <a className='pb-4'>See details</a> */}
           <ul className='flex flex-wrap  gap-1 sm:mt-auto'>
             {tech.map((tech, index) => (
               <li
                 key={index}
-                className='font-fira  bg-gray-800 dark:bg-[#684A63] text-white px-2 py-1 text-xs tracking-wide rounded-md'
+                className='font-fira bg-gray-800 dark:bg-secondaryDark text-white px-2 py-1 text-xs tracking-wide rounded-md'
               >
                 {tech}
               </li>
@@ -74,7 +72,7 @@ export default function Project({
               target='_blank'
               rel='noreferrer'
               title='Live demo (Opens in new tab)'
-              className='flex items-center  hover:cursor-pointer outline-none focus:text-focusColor hover:text-focusColor active:text-focusColor duration-200'
+              className='flex items-center hover:cursor-pointer outline-none focus:text-focusColor hover:text-focusColor active:text-focusColor duration-200'
             >
               <LuExternalLink size={25} />
               <span className='sr-only'>Live demo. Opens in new tab</span>

@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function About() {
-  // refactored, custom hook
+  // refactored: custom hook useSectionInView()
   // const { ref, inView } = useInView({
   //   threshold: 0.75,
   // });
@@ -33,7 +33,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className='mb-4'>
         In a previous life I was a{' '}
-        <strong className='text-primaryLight dark:text-lightMauve'>
+        <strong className='text-primaryLight dark:text-primaryDark'>
           film editor
         </strong>{' '}
         based in London for 20 years, working on{' '}
@@ -46,7 +46,7 @@ export default function About() {
         which led me to the Mediterranean where I worked on{' '}
         <strong>private superyachts </strong>
         as a{' '}
-        <strong className='text-primaryLight dark:text-lightMauve'>
+        <strong className='text-primaryLight dark:text-primaryDark'>
           {' '}
           crew
         </strong>
@@ -57,7 +57,7 @@ export default function About() {
       </p>
       <p className=' dark:text-gray-300'>
         I discovered{' '}
-        <strong className='text-primaryLight dark:text-lightMauve'>
+        <strong className='text-primaryLight dark:text-primaryDark'>
           {' '}
           coding{' '}
         </strong>{' '}
