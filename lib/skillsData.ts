@@ -22,40 +22,14 @@ export const skills = [
   'WCAG',
 ];
 
-export const skillsIntro = [
-  'Next',
-  'Java',
-  'Swift',
-  'SwiftUI',
-  'Bootstrap',
-  'Styled Components',
-  'Supabase',
-];
-
-export const skillsNow = [
-  'React Testing Library',
-  'Jest / Vitest',
-  'Web accessibility',
-];
-// const skillsToDo = [
-//   'React Native',
-//   'Testing',
-//   'CI/CD',
-//   'Jest',
-//   'Cypress',
-//   'Jenkins',
-//   'Solidity',
-// ];
 export const languages = ['English', 'French', 'Spanish'];
+
 export const softSkills = [
   'Curious',
   'Adaptable',
   'Versatile',
   'Teamwork',
-
+  'Attention to detail',
   'Resilient',
   'Life-long learner',
-  'Attention to detail',
-  'Resourceful',
-  '20+ years of satisfied clients',
 ];

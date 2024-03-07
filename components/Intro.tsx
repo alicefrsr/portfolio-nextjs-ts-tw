@@ -78,7 +78,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <SectionHeading>Hi, I'm Anne.</SectionHeading>
+        {/* <SectionHeading></SectionHeading> */}
+        <h1 className='mb-8'>👋 Hi, I'm Anne </h1>
 
         <p className='text-[1.4rem] pt-4 leading-8'>
           I'm a self-taught developer focused on building responsive and

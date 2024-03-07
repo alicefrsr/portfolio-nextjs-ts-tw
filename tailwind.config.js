@@ -27,7 +27,11 @@ module.exports = {
       },
       colors: {
         primaryLight: '#138cd3',
-        primaryDark: '#684A63',
+        lightBlue: '#C7E2F0',
+        lightCoral: '#ffdfc3',
+
+        // darkMauve: '#724E69',
+        lightMauve: '#6A618D',
         focusColor: '#ffa565',
         white: '#fff',
         greyDark: '#343a40',
