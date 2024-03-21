@@ -37,7 +37,7 @@ export default function Skills() {
         {skills.map((skill: string, index: number) => (
           <motion.li
             key={index}
-            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-secondaryLight dark:border-secondaryDark  dark:bg-white/10 dark:text-white/80'
+            className='text-base font-fira bg-primaryLight dark:bg-primaryDark text-white px-3 py-2 tracking-normal rounded-md'
             variants={fadeInAnimationVariants}
             initial='initial'
             whileInView='animate'
@@ -56,7 +56,7 @@ export default function Skills() {
         {languages.map((language: string, index: number) => (
           <motion.li
             key={index}
-            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-lightOrange  dark:bg-white/10 dark:text-white/80'
+            className='text-base font-fira bg-focusColor dark:bg-secondaryDark text-white px-3 py-2 tracking-normal rounded-md dark:text-white/80 '
             variants={fadeInAnimationVariants}
             initial='initial'
             whileInView='animate'

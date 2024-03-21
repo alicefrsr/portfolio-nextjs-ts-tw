@@ -59,7 +59,7 @@ export default function Project({
             {tech.map((tech, index) => (
               <li
                 key={index}
-                className='font-fira bg-gray-800 dark:bg-secondaryDark text-white px-2 py-1 text-xs tracking-wide rounded-md'
+                className='font-fira bg-primaryLight dark:bg-primaryDark text-white px-2 py-1 text-xs tracking-wide rounded-md'
               >
                 {tech}
               </li>
