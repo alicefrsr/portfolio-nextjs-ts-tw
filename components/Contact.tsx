@@ -43,6 +43,7 @@ export default function Contact() {
         or using this form.
       </p>
       <form
+          // (type inferred here)
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
           // error handling

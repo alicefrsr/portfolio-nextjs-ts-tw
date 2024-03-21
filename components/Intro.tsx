@@ -76,7 +76,7 @@ export default function Intro() {
 
       {/* Links to projects, CV, socials */}
       <motion.div
-        className='flex flex-col sm:flex-row items-center justify-center text-lg font-medium gap-4 px-4'
+        className='flex flex-row items-center justify-center text-lg font-medium gap-4 px-4'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -111,7 +111,7 @@ export default function Intro() {
           href='https://www.linkedin.com/in/annemonnehay/'
           target='_blank'
           rel='noreferrer'
-          className='shadow-md dark:shadow-black/30 bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer  outline-none   border-2 border-transparent focus:border-focusColor focus:scale-110 hover:scale-110  active:scale-105 hover:shadow-gray-400 duration-200 dark:bg-white/10  dark:text-white/80'
+          className='shadow-md dark:shadow-black/30 bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer outline-none border-2 border-transparent focus:border-focusColor focus:scale-110 hover:scale-110  active:scale-105 hover:shadow-gray-400 duration-200 dark:bg-white/10  dark:text-white/80'
           aria-hidden='true'
         >
           <LiaLinkedinIn size={28} />
