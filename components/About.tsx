@@ -50,7 +50,7 @@ export default function About() {
           {' '}
           crew
         </strong>
-        , lending on hand on deck, the interior and the engine room. For a while
+        , lending a hand on deck, the interior and the engine room. For a while
         I juggled a life at sea during the summer with working on short editing
         contracts with my regular clients in London during the winter
         (2017-2021).

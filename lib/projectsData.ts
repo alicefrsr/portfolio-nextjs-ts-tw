@@ -131,7 +131,7 @@ const projectsData = [
       'React',
       'React Router',
       'Redux Toolkit',
-      'Tailwindcss',
+      'Tailwind',
       'Responsive',
       'Supabase',
     ],
