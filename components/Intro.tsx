@@ -62,16 +62,20 @@ export default function Intro() {
         <h1 className='mb-8'>👋 Hi, I'm Anne </h1>
 
         <p className='text-[1.4rem] pt-4 leading-8'>
-          I'm a self-taught developer focused on building responsive and
-          accessible web apps with <strong>React</strong> and{' '}
-          <strong>Tailwind</strong>, as well as integrating back-end
-          technologies with <strong>Node.js</strong>, <strong>Express </strong>
+          I'm a self-taught{' '}
+          <strong className='text-primaryLight dark:text-focusColor'>
+            developer
+          </strong>{' '}
+          focused on building responsive and accessible web apps with{' '}
+          <strong>React</strong> and <strong>Tailwind</strong>, as well as
+          integrating back-end technologies with <strong>Node.js</strong>,{' '}
+          <strong>Express </strong>
           and <strong>MongoDB</strong>.
         </p>
-        <p className='text-[1.4rem] pb-4 leading-8'>
+        {/* <p className='text-[1.4rem] pb-4 leading-8'>
           Endlessly curious, I'm also exploring the world of NoCode with{' '}
           <strong>Bubble</strong>.
-        </p>
+        </p> */}
       </motion.div>
 
       {/* Links to projects, CV, socials */}

@@ -33,7 +33,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className='mb-4'>
         In a previous life I was a{' '}
-        <strong className='text-primaryLight dark:text-primaryDark'>
+        <strong className='text-primaryLight dark:text-focusColor'>
           film editor
         </strong>{' '}
         based in London for 20 years, working on{' '}
@@ -46,7 +46,7 @@ export default function About() {
         which led me to the Mediterranean where I worked on{' '}
         <strong>private superyachts </strong>
         as{' '}
-        <strong className='text-primaryLight dark:text-primaryDark'>
+        <strong className='text-primaryLight dark:text-focusColor'>
           {' '}
           crew
         </strong>
@@ -57,20 +57,22 @@ export default function About() {
       </p>
       <p className=' dark:text-gray-300'>
         I discovered{' '}
-        <strong className='text-primaryLight dark:text-primaryDark'>
+        <strong className='text-primaryLight dark:text-focusColor'>
           {' '}
           coding{' '}
         </strong>{' '}
-        in my travels and as the world shut down during the pandemic in 2020, it
-        was a chance to dive a little deeper. Two months of Python during
-        lockdown got me hooked.
+        in my travels and got hooked.
       </p>
       <p>
-        Since 2022 I've been <strong>building things for the web</strong>.
-        Currently my focus is to continue to expand my skillset by integrating{' '}
-        <strong>tests</strong> in my projects, learning React Testing Library,
-        Cypress, Jest/Vitest, as well as keeping accessibility in mind, and to
-        keep building.
+        Now that I have a good foundation in{' '}
+        <strong className='text-primaryLight dark:text-focusColor'>
+          {' '}
+          web development
+        </strong>
+        , my focus is to expand my skillset by continuing to
+        <strong> build things for the web</strong> keeping accessibility in
+        mind, integrating <strong>tests</strong> in my projects, and more
+        recently, explore the <strong>devops</strong> toolkit.
       </p>
     </motion.section>
   );
