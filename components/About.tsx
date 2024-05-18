@@ -45,7 +45,7 @@ export default function About() {
         I left after Brexit in pursuit of new challenges and sailing adventures,
         which led me to the Mediterranean where I worked on{' '}
         <strong>private superyachts </strong>
-        as a{' '}
+        as{' '}
         <strong className='text-primaryLight dark:text-primaryDark'>
           {' '}
           crew
