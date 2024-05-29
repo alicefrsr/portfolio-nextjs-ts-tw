@@ -1,13 +1,15 @@
 export const skills = [
   'HTML5',
   'CSS3',
-  'CSS Modules',
   'Tailwind',
+  'Responsive',
+  'Web accessibility',
+  'WCAG',
   'Javascript',
   'TypeScript',
   'Git',
   'Github',
-  'Python',
+  'CLI',
   'React',
   'React Router',
   'Tanstack Query',
@@ -17,9 +19,6 @@ export const skills = [
   'Node.js',
   'Express',
   'MongoDB',
-  'Responsive',
-  'Web accessibility',
-  'WCAG',
 ];
 
 export const languages = ['English', 'French', 'Spanish'];
