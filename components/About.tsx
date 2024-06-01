@@ -59,7 +59,7 @@ export default function About() {
         I discovered{' '}
         <strong className='text-primaryLight dark:text-focusColor'>
           {' '}
-          coding{' '}
+          programming{' '}
         </strong>{' '}
         in my travels and got hooked.
       </p>
