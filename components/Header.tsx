@@ -33,7 +33,7 @@ export default function Header() {
               <Link
                 href={link.hash}
                 className={clsx(
-                  'outline-focusColor rounded-md  flex w-full items-center justify-center p-3 hover:text-gray-950 transition dark:text-gray-400 dark:hover:text-gray-100 duration-300',
+                  'outline-focusColor rounded-md flex w-full items-center justify-center p-3 hover:text-gray-950 transition dark:text-gray-400 dark:hover:text-gray-100 duration-300',
                   {
                     'text-gray-950 dark:text-white ':
                       activeSection === link.name,
@@ -47,7 +47,7 @@ export default function Header() {
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span
-                    className=' bg-gray-200 dark:bg-white/10 rounded-full absolute inset-0 -z-10  '
+                    className=' bg-lightOrange dark:bg-lightPurple border border-black/30 dark:border dark:border-white/30 rounded-full absolute inset-0 -z-10  '
                     layoutId='activeSection'
                     transition={{
                       type: 'spring',

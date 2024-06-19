@@ -25,13 +25,17 @@ export default function About() {
     <motion.section
       ref={ref}
       id='about'
-      className='max-w-[50rem] text-center text-[1.1rem] leading-8 sm:mb-60 scroll-mt-28 mb-28 '
+      className='font-atk  tracking-wide  max-w-[50rem] text-center text-[1rem] sm:text-[1.1rem] leading-8 sm:mb-60 scroll-mt-28 mb-28 '
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
     >
       <SectionHeading>About me</SectionHeading>
+
       <p className='mb-4'>
+        <span aria-label='clapboard' className='pr-2'>
+          🇬🇧 🎬
+        </span>{' '}
         In a previous life I was a{' '}
         <strong className='text-primaryLight dark:text-focusColor'>
           film editor
@@ -42,9 +46,9 @@ export default function About() {
         editor on award-winning animation shorts and commercials.
       </p>
       <p className='mb-4'>
-        I left after Brexit in pursuit of new challenges and sailing adventures,
-        which led me to the Mediterranean where I worked on{' '}
-        <strong>private superyachts </strong>
+        <span className='pr-2'>🌎 ⛵️</span> I left after Brexit in pursuit of
+        new challenges and sailing adventures, which led me to the Mediterranean
+        where I worked on <strong>private superyachts </strong>
         as{' '}
         <strong className='text-primaryLight dark:text-focusColor'>
           {' '}
@@ -56,7 +60,7 @@ export default function About() {
         (2017-2021).
       </p>
       <p className=' dark:text-gray-300'>
-        I discovered{' '}
+        <span className='pr-2'>🇫🇷 👩‍💻</span>I discovered{' '}
         <strong className='text-primaryLight dark:text-focusColor'>
           {' '}
           programming{' '}

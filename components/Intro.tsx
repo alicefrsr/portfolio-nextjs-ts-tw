@@ -28,7 +28,7 @@ export default function Intro() {
     <section
       ref={ref}
       id='intro'
-      className='mb-28 pb-56 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'
+      className='mb-28 pb-56 max-w-[55rem] text-center sm:mb-0 scroll-mt-[100rem]'
     >
       <div className='flex items-center justify-center'>
         <div className='relative'>
@@ -59,17 +59,22 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <h1 className='mb-8'>👋 Hi, I'm Anne </h1>
+        <div className='m-8 flex items-center justify-center'>
+          <span>👋</span>
+          <h1 className='pl-2 text-3xl sm:pl-4 sm:text-4xl font-extrabold md:text-5xl xl:text-6xl'>
+            Hello, I'm Anne.{' '}
+          </h1>
+        </div>
 
-        <p className='text-[1.4rem] pt-4 leading-8'>
+        <p className='font-atk   text-[1.2rem] sm:text-[1.4rem] pt-4 leading-9'>
           I'm a self-taught{' '}
           <strong className='text-primaryLight dark:text-focusColor'>
-            developer
+            web developer
           </strong>{' '}
           focused on building responsive and accessible web apps with{' '}
-          <strong>React</strong> and <strong>Tailwind</strong>, as well as
-          integrating back-end technologies with <strong>Node.js</strong>,{' '}
-          <strong>Express </strong>
+          <strong>React</strong>, <strong>Next.js</strong> and{' '}
+          <strong>Tailwind</strong>, as well as integrating back-end
+          technologies with <strong>Node.js</strong>, <strong>Express </strong>
           and <strong>MongoDB</strong>.
         </p>
         {/* <p className='text-[1.4rem] pb-4 leading-8'>
@@ -115,7 +120,7 @@ export default function Intro() {
           href='https://www.linkedin.com/in/annemonnehay/'
           target='_blank'
           rel='noreferrer'
-          className='shadow-md dark:shadow-black/30 bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer outline-none border-2 border-transparent focus:border-focusColor focus:scale-110 hover:scale-110  active:scale-105 hover:shadow-gray-400 duration-200 dark:bg-white/10  dark:text-white/80'
+          className='btnSocials'
           aria-hidden='true'
         >
           <LiaLinkedinIn size={28} />
@@ -128,7 +133,7 @@ export default function Intro() {
           target='_blank'
           rel='noreferrer'
           // className='icon-link'
-          className='shadow-md dark:shadow-black/30 bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer  outline-none  border-2 border-transparent  focus:border-focusColor focus:scale-110 hover:scale-110 hover:shadow-gray-400 active:scale-105 duration-200 dark:bg-white/10  dark:text-white/80 '
+          className='btnSocials'
           aria-hidden='true'
         >
           <FiGithub size={28} />

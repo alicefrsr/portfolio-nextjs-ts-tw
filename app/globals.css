@@ -2,14 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --oldPink: #d09fb6;
+  --brightPink: #f472b6;
+} */
+
 .borderBlack {
   @apply border border-black/10;
 }
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.btnSocials {
+  @apply shadow-md dark:shadow-black/30 bg-white text-gray-700 p-[0.8rem] flex items-center rounded-full gap-2 hover:cursor-pointer outline-none  border-2 border-transparent  focus:border-focusColor focus:scale-110 hover:scale-110 active:scale-105 hover:shadow-gray-400  duration-200 dark:bg-white/10  dark:text-white/80;
+}
+
+.btnToggleTheme {
+  @apply outline-focusColor fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] p-[0.8rem] bg-opacity-70 backdrop-blur-[0.5rem] border dark:border-white/30 border-black/30 shadow-md rounded-full flex items-center justify-center focus:scale-110 hover:scale-[1.15] hover:shadow-md hover:border-opacity-100 hover:shadow-gray-400 active:scale-105 transition-all dark:bg-gray-950 dark:hover:shadow-gray-950;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,4 +25,4 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-} */
+}

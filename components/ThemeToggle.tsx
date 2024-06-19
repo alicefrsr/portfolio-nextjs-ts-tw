@@ -34,10 +34,7 @@ export default function ThemeToggle() {
   }, []);
 
   return (
-    <button
-      className='outline-focusColor fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] p-[0.8rem] bg-opacity-70 backdrop-blur-[0.5rem] border dark:border-white border-opacity-50 shadow-md rounded-full flex items-center justify-center focus:scale-110 hover:scale-[1.15] hover:shadow-md hover:border-opacity-100 hover:shadow-gray-400 active:scale-105 transition-all dark:bg-gray-950 dark:shadow-none'
-      onClick={toggleTheme}
-    >
+    <button className='btnToggleTheme' onClick={toggleTheme}>
       {theme === 'light' ? <BsMoon size={28} /> : <BsSun size={28} />}
     </button>
   );

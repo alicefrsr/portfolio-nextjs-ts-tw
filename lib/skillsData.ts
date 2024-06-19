@@ -14,6 +14,7 @@ export const skills = [
   'React Router',
   'Tanstack Query',
   'Redux',
+  'Next.js',
   'RESTful APIs',
   'Postman',
   'Node.js',
@@ -24,11 +25,11 @@ export const skills = [
 export const languages = ['English', 'French', 'Spanish'];
 
 export const softSkills = [
-  'Curious',
+  'Inquisitive',
   'Adaptable',
   'Versatile',
-  'Teamwork',
+  'Team player',
   'Attention to detail',
-  'Resilient',
+  'Laser focused',
   'Life-long learner',
 ];
