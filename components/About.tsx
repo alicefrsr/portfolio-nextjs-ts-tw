@@ -33,10 +33,8 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className='mb-4'>
-        <span aria-label='clapboard' className='pr-2'>
-          🇬🇧 🎬
-        </span>{' '}
-        In a previous life I was a{' '}
+        <span className='pr-2 sm:text-2xl'>🇬🇧 🎬</span> In a previous life I was
+        a{' '}
         <strong className='text-primaryLight dark:text-focusColor'>
           film editor
         </strong>{' '}
@@ -46,9 +44,9 @@ export default function About() {
         editor on award-winning animation shorts and commercials.
       </p>
       <p className='mb-4'>
-        <span className='pr-2'>🌎 ⛵️</span> I left after Brexit in pursuit of
-        new challenges and sailing adventures, which led me to the Mediterranean
-        where I worked on <strong>private superyachts </strong>
+        <span className='pr-2 sm:text-2xl'>🌎 ⛵️</span> I left after Brexit in
+        pursuit of new challenges and sailing adventures, which led me to the
+        Mediterranean where I worked on <strong>private superyachts </strong>
         as{' '}
         <strong className='text-primaryLight dark:text-focusColor'>
           {' '}
@@ -60,7 +58,7 @@ export default function About() {
         (2017-2021).
       </p>
       <p className=' dark:text-gray-300'>
-        <span className='pr-2'>🇫🇷 👩‍💻</span>I discovered{' '}
+        <span className='pr-2 sm:text-2xl'>🇫🇷 👩‍💻</span>I discovered{' '}
         <strong className='text-primaryLight dark:text-focusColor'>
           {' '}
           programming{' '}

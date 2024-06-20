@@ -31,17 +31,31 @@ export default function Contact() {
       }}
       viewport={{ once: true }}
     >
-      <SectionHeading>GET IN TOUCH</SectionHeading>
-      <p className='text-gray-700 dark:text-white/80'>
-        Please contact me directly on{' '}
-        <a
-          className='underline  focus:outline-focusColor'
-          href='mailto:anne3.dev@gmail.com'
-        >
-          anne3.dev@gmail.com
-        </a>{' '}
-        or using this form.
-      </p>
+      <SectionHeading>
+        GET IN TOUCH <span className='sm:text-4xl'>💬</span>
+      </SectionHeading>
+      <div className='text-gray-700 dark:text-white/80'>
+        <div className='font-bold flex flex-col sm:flex-row sm:gap-1 justify-center'>
+          <p> My CV is available on request, </p>
+          <p> feel free to ask if it's of any interest.</p>
+        </div>
+        <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
+          <p>Whether you'd like to talk about work, </p>
+          <p>tech stuff, hobbies or the latest storm,</p>
+        </div>
+        <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
+          <p>
+            you can drop me a line on{' '}
+            <a
+              className='underline focus:outline-focusColor'
+              href='mailto:anne3.dev@gmail.com'
+            >
+              anne3.dev@gmail.com
+            </a>{' '}
+          </p>
+          <p> or using this form.</p>
+        </div>
+      </div>
       <form
         // (type inferred here)
         action={async (formData) => {
