@@ -22,7 +22,7 @@ export const skills = [
   'MongoDB',
 ];
 
-export const languages = ['English', 'French', 'Spanish'];
+export const languages = ['English 🇬🇧', 'French 🇫🇷', 'Spanish 🇪🇸'];
 
 export const softSkills = [
   'Inquisitive',
