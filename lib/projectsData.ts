@@ -8,6 +8,7 @@ import todoappImg from '@/public/images/projects/todoapp.png';
 import bitsbobsImg from '@/public/images/projects/bitsbobs.png';
 import expensetrackerImg from '@/public/images/projects/expensetracker.png';
 import proshopImg from '@/public/images/projects/proshop-product.png';
+import portfolioV1Img from '@/public/images/projects/portfolioV1.png';
 // import elMiradorImg from '@/public/images/projects/el-mirador.png';
 
 const projectsData = [
@@ -46,7 +47,6 @@ const projectsData = [
     codeURL: 'https://github.com/alicefrsr/react-router-pizza',
     categories: ['React', 'Full Stack', 'Responsive'],
   },
-
   {
     id: 6,
     urlName: 'bits-and-bobs',
@@ -70,6 +70,7 @@ const projectsData = [
     codeURL: 'https://github.com/alicefrsr/react-bits-and-bobs',
     categories: ['React'],
   },
+
   {
     id: 3,
     urlName: 'splitter',
@@ -99,34 +100,34 @@ const projectsData = [
     codeURL: 'https://github.com/alicefrsr/React-devfinder-App',
     categories: ['React', 'HTML/CSS Integration', 'Responsive'],
   },
-  {
-    id: 5,
-    urlName: 'todo-app',
-    // imageURL: '../../../img/todoapp.png ',
-    imageURL: todoappImg,
-    title: 'Things to do',
-    summary: 'Another to-do app...',
-    desc: 'Add, edit, delete your todos, saved to local storage. I used the same project to learn about the Context API, useReducer, how to implement customs hooks.',
-    tech: ['React', 'Context API', 'useReducer', 'Custom hooks'],
-    other: '',
-    demoURL: 'https://another-todoapp.netlify.app/',
-    codeURL: 'https://github.com/alicefrsr/React-todoApp',
-    categories: ['React'],
-  },
-  {
-    id: 1,
-    urlName: 'Omnifood',
-    // imageURL: '../assets/images/projects/omnifood.png',
-    imageURL: omnifoodImg,
-    title: 'Omnifood',
-    summary: 'Static website showcasing a fictitious food delivery company.',
-    desc: 'Static website showcasing a fictitious food delivery company. One of my first projects  to learn CSS and responsive design.',
-    tech: ['HTML', 'Responsive', 'Vanilla JS'],
-    other: '',
-    demoURL: 'https://food-ai-demo.netlify.app/',
-    codeURL: 'https://github.com/alicefrsr/Omnifood',
-    categories: ['HTML/CSS Integration', 'Responsive'],
-  },
+  // {
+  //   id: 5,
+  //   urlName: 'todo-app',
+  //   // imageURL: '../../../img/todoapp.png ',
+  //   imageURL: todoappImg,
+  //   title: 'Things to do',
+  //   summary: 'Another to-do app...',
+  //   desc: 'Add, edit, delete your todos, saved to local storage. I used the same project to learn about the Context API, useReducer, how to implement customs hooks.',
+  //   tech: ['React', 'Context API', 'useReducer', 'Custom hooks'],
+  //   other: '',
+  //   demoURL: 'https://another-todoapp.netlify.app/',
+  //   codeURL: 'https://github.com/alicefrsr/React-todoApp',
+  //   categories: ['React'],
+  // },
+  // {
+  //   id: 1,
+  //   urlName: 'Omnifood',
+  //   // imageURL: '../assets/images/projects/omnifood.png',
+  //   imageURL: omnifoodImg,
+  //   title: 'Omnifood',
+  //   summary: 'Static website showcasing a fictitious food delivery company.',
+  //   desc: 'Static website showcasing a fictitious food delivery company. One of my first projects  to learn CSS and responsive design.',
+  //   tech: ['HTML', 'Responsive', 'Vanilla JS'],
+  //   other: '',
+  //   demoURL: 'https://food-ai-demo.netlify.app/',
+  //   codeURL: 'https://github.com/alicefrsr/Omnifood',
+  //   categories: ['HTML/CSS Integration', 'Responsive'],
+  // },
   // {
   //   id: 2,
   //   urlName: 'guessing-game',
@@ -203,6 +204,20 @@ const projectsData = [
   //   codeURL: 'Private repo for now, coming soon!',
   //   categories: ['Professional'],
   // },
+  {
+    id: 101,
+    urlName: 'first-portfolio',
+    // imageURL: '../../../img/proshop-product.png',
+    imageURL: portfolioV1Img,
+    title: 'Portfolio v1.0',
+    summary: 'My first portfolio built using React. ',
+    desc: 'My first portfolio built using React, showcasing earlier projects from CSS integration exercises to Vanilla JS games. The objective was to be able to filter according to project categories and implement accessibles modals.',
+    tech: ['React', 'Tailwind', 'Custom hooks'],
+    other: '',
+    demoURL: 'https://huggabug.netlify.app/',
+    codeURL: 'https://github.com/alicefrsr/react-tw-portfolio',
+    categories: ['React'],
+  },
 ] as const;
 
 export default projectsData;

@@ -34,6 +34,7 @@ module.exports = {
         lightPurple: '#724E69',
         oldPink: '#d09fb6',
         brightPinkTW: '#f472b6',
+        brightPinkDracula: '##FF78C6',
         darkGrey: '#1E293B',
       },
     },
