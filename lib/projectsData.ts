@@ -18,8 +18,10 @@ const projectsData = [
     // imageURL: '../../../img/quiz.png ',
     imageURL: quizImg,
     title: 'Quiz',
-    summary: 'React quiz with 15 questions to test your knowledge !',
-    desc: 'React quiz with 15 questions to test your knowledge! Features include a timer, a cancel/exit button, a highscore saved and updated on each round  and a restart button. Basic RESTFul API built for the back-end with Express and deployed on Vercel: https://react-quiz-weld.vercel.app/api/V1/questions.',
+    summary: 'React quiz with 15 questions to test your knowledge!',
+    desc: 'Features include a timer, a cancel/exit button, a highscore saved and updated on each round, and a restart button.',
+    other:
+      'Basic RESTFul API built for the back-end with Express and deployed on Vercel: https://react-quiz-weld.vercel.app/api/V1/questions.',
     tech: [
       'React',
       'Context API',
@@ -28,7 +30,6 @@ const projectsData = [
       'RESTful API',
       'Vercel',
     ],
-    other: '',
     demoURL: 'https://react-quiz-6l23.vercel.app/',
     codeURL: 'https://github.com/alicefrsr/react-quiz',
     categories: ['React', 'Full Stack'],
@@ -39,8 +40,10 @@ const projectsData = [
     // imageURL: '../../../img/pizzaApp.png ',
     imageURL: pizzaImg,
     title: "Chiara's Pizza Place",
-    summary: 'Order your pizzas here!',
-    desc: "Order your pizzas here and pay on delivery! Add and remove pizzas to/from your cart, use geolocation to input address for delivery, search for orders. We'll tell you how long you have to wait and if you are really hungry, you can set your order to priority, we'll speed up that order for you! (Data fetched from existing API, I didn't build this back-end myself.)",
+    summary: 'Order your pizzas here and pay on delivery!',
+    desc: "Add and remove pizzas to/from your cart, use geolocation to input address for delivery, search for orders. We'll tell you how long you have to wait and if you are really hungry, you can set your order to priority, we'll speed up that order for you!",
+    other:
+      "(Data fetched from existing API, I didn't build this back-end myself.)",
     tech: [
       'React',
       'React Router',
@@ -49,7 +52,6 @@ const projectsData = [
       'Responsive',
       'Netlify',
     ],
-    other: '',
     demoURL: 'https://chiaras-pizza.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/react-router-pizza',
     categories: ['React', 'Full Stack', 'Responsive'],
@@ -61,8 +63,10 @@ const projectsData = [
     imageURL: bitsbobsImg,
     title: 'Bits & Bobs',
     summary:
-      'Personal learning website I used to gather components and mini-apps while exploring how React works.',
-    desc: 'Personal learning website I put together to gather all my React experiments in one place so I could have them as a reference. No back-end, only local storage data persistence on some mini-apps when relevant (to-do app, movie-app etc).',
+      'Personal learning website I built to gather components and mini-apps while exploring how React works.',
+    desc: 'Having everything in one place helps my learning process. Learning React Router was a good excuse to build this. Some are basic exercises from various tutorials, some my own as I try to figure out how to do something new.',
+    other:
+      'No back-end, only local storage data persistence on some mini-apps when relevant (to-do app, movie-app etc).',
     tech: [
       'React',
       'Custom hooks',
@@ -74,7 +78,7 @@ const projectsData = [
       'Local Storage',
       'Netlify',
     ],
-    other: '',
+
     demoURL: 'https://bits-and-bobs.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/react-bits-and-bobs',
     categories: ['React'],
@@ -87,9 +91,10 @@ const projectsData = [
     imageURL: splitterImg,
     title: 'Splitter',
     summary: 'Tip calculator / bill splitter app.',
-    desc: 'Tip calculator / bill splitter app. Enter the bill amount, number of people to split between and chose the tip, the app breaks down the total to pay per person. Frontend Mentor challenge (Junior level): to think in Javascript without following a tutorial! and practice CSS Flexbox. UI changes for accessibility. Reference: https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX',
+    desc: 'Enter the bill amount, number of people to split between and chose the tip, the app breaks down the total to pay per person. Frontend Mentor challenge (Junior level): to practice CSS Flexbox and think in Javascript without following a tutorial! UI changes for accessibility.',
+    other:
+      'Visual reference: https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX',
     tech: ['HTML', 'Responsive', 'Vanilla JS', 'Web accessibility', 'Netlify'],
-    other: '',
     demoURL: 'https://splitter-demo.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/Splitter',
     categories: ['Vanilla JS', 'HTML/CSS Integration', 'Responsive'],
@@ -102,9 +107,11 @@ const projectsData = [
     title: 'Devfinder',
     summary:
       'A simple React app to search for Github users information using the Github API.',
-    desc: 'A simple React app to search for Github users information using the Github API. Frontend Mentor challenge (Junior level): to practice CSS, Flexbox, implement dark/light mode using the Context API. Visual reference: https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6',
+    desc: 'Frontend Mentor challenge (Junior level): to practice CSS Flexbox, implement dark/light mode using the Context API. ',
+    other:
+      'Visual reference: https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6',
     tech: ['React', 'Context API', 'Responsive', 'Github API', 'Netlify'],
-    other: '',
+
     demoURL: 'https://devfinder-demo.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/React-devfinder-App',
     categories: ['React', 'HTML/CSS Integration', 'Responsive'],
@@ -160,7 +167,7 @@ const projectsData = [
     title: 'Expensetracker',
     summary:
       'Simple budget app to add and delete income and expenses, using the MERN stack.',
-    desc: "Simple budget App to add and delete income and expenses, using the MERN stack. Basic C,R + D (Create, Read and Delete) operations on MongoDB database. (Deployed on render.com's free plan, please allow 30sec for project to load! ⏳)",
+    desc: "Basic C, R + D (Create, Read and Delete) operations on MongoDB database. (Deployed on render.com's free plan, please allow 30sec for project to load! ⏳)",
     tech: [
       'React',
       'Responsive',
@@ -183,8 +190,8 @@ const projectsData = [
     imageURL: proshopImg,
     title: 'e-commerce',
     summary:
-      "Fullstack e-commerce platform, following Brad Traversy's Udemy tutorial,",
-    desc: "Fullstack e-commerce platform, following Brad Traversy's Udemy tutorial, to further consolidate my Redux skills and all CRUD operations on a database. A good exposure to authentification with JWT, PayPal & Credit card integration. (Deployed on render.com's free plan, please allow 30sec for project to load! ⏳)",
+      "Fullstack e-commerce platform, following Brad Traversy's Udemy tutorial.",
+    desc: "To further consolidate my Redux skills and implement all CRUD operations on a database. A good exposure to authentification with JWT, PayPal & Credit card integration. (Deployed on render.com's free plan, please allow 30sec for project to load! ⏳)",
     tech: [
       'React',
       'Bootstrap',
@@ -222,8 +229,8 @@ const projectsData = [
     imageURL: portfolioV1Img,
     title: 'Portfolio v1.0',
     summary: 'My first portfolio built using React. ',
-    desc: 'My first portfolio built using React, showcasing earlier projects from CSS integration exercises to Vanilla JS games. The objective was to be able to filter according to project categories and implement accessibles modals.',
-    tech: ['React', 'Tailwind', 'Custom hooks', 'Netlify'],
+    desc: 'Showcases earlier projects from CSS integration exercises to Vanilla JS games. The objective was to be able to filter according to project categories and implement accessibles modals.',
+    tech: ['React', 'Tailwind', 'Custom hooks', 'Responsive', 'Netlify'],
     other: '',
     demoURL: 'https://huggabug.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/react-tw-portfolio',

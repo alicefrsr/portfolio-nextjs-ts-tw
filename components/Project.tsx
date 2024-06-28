@@ -14,6 +14,7 @@ export default function Project({
   title,
   summary,
   desc,
+  other,
   imageURL,
   demoURL,
   codeURL,
@@ -35,27 +36,31 @@ export default function Project({
         opacity: opacityProgress,
       }}
     >
-      <article className='font-atk  tracking-wide sm:px-8 sm:py-8 bg-secondaryLight max-w-[42rem] borderBlack overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center sm:gap-8 sm:group-even:flex-row-reverse  transition dark:bg-darkGrey  dark:text-white'>
+      <article className='font-atk tracking-wide sm:px-8 sm:py-8 bg-secondaryLight max-w-[50rem] borderBlack dark:border-white/20 overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center sm:gap-8 sm:group-even:flex-row-reverse  transition dark:bg-darkGrey  dark:text-white'>
         {/* Image */}
         <div className=''>
           <Image
             src={imageURL}
             alt={title}
             quality={95}
-            className='sm:w-[18.25rem] sm:shadow-lg sm:rounded-lg '
+            className='sm:shadow-2xl   sm:rounded-lg  '
           />
         </div>
 
         {/* Text */}
-        <div className=' pt-4 px-5 gap-6 sm:px-0 pb-7 sm:max-w-[50%] flex flex-col h-full '>
+        <div className='pt-4 px-5 gap-3 sm:px-0 pb-7 sm:max-w-[50%] flex flex-col h-full '>
           <div className='flex justify-between '>
             <h3 className='text-2xl font-semibold'>{title}</h3>
           </div>
-
-          <p className='mt-2 leading-relaxed text-gray-700  dark:text-white/70'>
-            {desc}
+          <p className='font-semibold leading-relaxed text-gray-800  dark:text-white/90'>
+            {summary}
           </p>
-          <ul className='flex flex-wrap  gap-1 sm:mt-auto'>
+          <p className='leading-relaxed text-gray-800  dark:text-white/80'>
+            {desc} {other}
+          </p>
+
+          {/* Tech tags */}
+          <ul className='mt-4 flex flex-wrap  gap-1 sm:mt-auto'>
             {tech.map((tech, index) => (
               <li
                 key={index}
@@ -66,7 +71,7 @@ export default function Project({
             ))}
           </ul>
           {/* External links */}
-          <div className='flex gap-2'>
+          <div className='mt-4 flex gap-2'>
             <a
               href={demoURL}
               target='_blank'
