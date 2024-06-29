@@ -16,7 +16,7 @@ export default function Header() {
     <header className='z-[999] relative'>
       {/* nav bar */}
       <motion.div
-        className='fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-70 shadow-lg shadow-black/5 backdrop-blur-md sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:border-black/40 dark:bg-opacity-70 dark:bg-gray-950 '
+        className='fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border-b-2 border-black/10 dark:border-white/20 bg-white bg-opacity-70 sm:shadow-lg backdrop-blur-md sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full sm:border dark:bg-opacity-70 dark:bg-gray-950 '
         initial={{ y: -100, x: '-50%', opacity: 0 }}
         animate={{ y: 0, x: '-50%', opacity: 1 }}
       ></motion.div>
@@ -47,7 +47,7 @@ export default function Header() {
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span
-                    className=' bg-lightOrange dark:bg-lightPurple border border-black/30 dark:border dark:border-white/30 rounded-full absolute inset-0 -z-10  '
+                    className=' bg-navLight dark:bg-navDark border border-black/30 dark:border dark:border-white/30 rounded-full absolute inset-0 -z-10  '
                     layoutId='activeSection'
                     transition={{
                       type: 'spring',

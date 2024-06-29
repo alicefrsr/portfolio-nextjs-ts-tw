@@ -36,35 +36,33 @@ export default function Project({
         opacity: opacityProgress,
       }}
     >
-      <article className='font-atk tracking-wide sm:px-8 sm:py-8 bg-secondaryLight max-w-[50rem] borderBlack dark:border-white/20 overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center sm:gap-8 sm:group-even:flex-row-reverse  transition dark:bg-darkGrey  dark:text-white'>
+      <article className='font-atk tracking-wide sm:px-8 sm:py-8 bg-cardBgLight max-w-[50rem] border border-black/10 dark:border-white/20 overflow-hidden rounded-lg flex flex-col sm:flex-row sm:items-center sm:justify-center sm:gap-8 sm:group-even:flex-row-reverse  transition dark:bg-cardBgDark  dark:text-white'>
         {/* Image */}
         <div className=''>
           <Image
             src={imageURL}
             alt={title}
             quality={95}
-            className='sm:shadow-2xl   sm:rounded-lg  '
+            className='sm:shadow-2xl sm:rounded-lg'
           />
         </div>
 
         {/* Text */}
-        <div className='pt-4 px-5 gap-3 sm:px-0 pb-7 sm:max-w-[50%] flex flex-col h-full '>
+        <div className=' h-full flex flex-col gap-3 text-gray-800 leading-relaxed dark:text-white/80 pt-4 pb-7 px-5 sm:px-0  sm:max-w-[50%] '>
           <div className='flex justify-between '>
             <h3 className='text-2xl font-semibold'>{title}</h3>
           </div>
-          <p className='font-semibold leading-relaxed text-gray-800  dark:text-white/90'>
-            {summary}
-          </p>
-          <p className='leading-relaxed text-gray-800  dark:text-white/80'>
+          <p className='font-semibold'>{summary}</p>
+          <p className=''>
             {desc} {other}
           </p>
 
           {/* Tech tags */}
-          <ul className='mt-4 flex flex-wrap  gap-1 sm:mt-auto'>
+          <ul className='mt-4 flex flex-wrap gap-1 sm:mt-auto'>
             {tech.map((tech, index) => (
               <li
                 key={index}
-                className='font-fira bg-primaryLight dark:bg-primaryDark text-white px-2 py-1 text-xs tracking-wide rounded-md'
+                className='techTag text-white bg-techTagsLight dark:bg-techTagsDark'
               >
                 {tech}
               </li>
@@ -88,7 +86,7 @@ export default function Project({
               target='_blank'
               rel='noreferrer'
               title='Github (Opens in new tab)'
-              className='flex items-center  hover:cursor-pointer outline-none focus:text-focusColor hover:text-focusColor active:text-focusColor duration-200'
+              className='flex items-center hover:cursor-pointer outline-none focus:text-focusColor hover:text-focusColor active:text-focusColor duration-200'
             >
               <FiGithub size={24} />
               <span className='sr-only'>Github (Opens in new tab)</span>

@@ -1,5 +1,8 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
+import gitCont from '../public/images/me/GitCont-Job.png';
+import gitContCropped from '../public/images/me/GitCont-JobCropped.png';
 import SectionHeading from './SectionHeading';
 import { motion } from 'framer-motion';
 
@@ -34,7 +37,7 @@ export default function About() {
 
       <p className='mb-4'>
         <span className='pr-2 sm:text-2xl'>🎬</span> In a previous life I was a{' '}
-        <strong className='text-primaryLight dark:text-focusColor'>
+        <strong className='text-primaryLight dark:text-primaryDark'>
           film editor
         </strong>{' '}
         based in London for 20 years, working on{' '}
@@ -47,7 +50,7 @@ export default function About() {
         pursuit of new challenges and sailing adventures, which led me to the
         Mediterranean where I worked on <strong>private superyachts </strong>
         as{' '}
-        <strong className='text-primaryLight dark:text-focusColor'>
+        <strong className='text-primaryLight dark:text-primaryDark'>
           {' '}
           crew
         </strong>
@@ -56,17 +59,15 @@ export default function About() {
         contracts with my regular clients in London during the winter
         (2017-2021).
       </p>
-      <p className=' dark:text-gray-300'>
-        <span className='pr-2 sm:text-2xl'>👩‍💻</span>I discovered{' '}
-        <strong className='text-primaryLight dark:text-focusColor'>
+      <p className='mb-4'>
+        <span className='pr-2 sm:text-2xl'>👩‍💻</span>I (re)discovered{' '}
+        <strong className='text-primaryLight dark:text-primaryDark'>
           {' '}
           programming{' '}
         </strong>{' '}
-        in my travels and got hooked.
-      </p>
-      <p>
-        Now that I have a good foundation in{' '}
-        <strong className='text-primaryLight dark:text-focusColor'>
+        in my travels and got hooked. (The internet didn't exist when I tinkered
+        on an Apple //e). Now that I have a good foundation in{' '}
+        <strong className='text-primaryLight dark:text-primaryDark'>
           {' '}
           web development
         </strong>
@@ -75,6 +76,23 @@ export default function About() {
         mind, integrating <strong>tests</strong> in my projects, and more
         recently, explore the <strong>devops</strong> toolkit.
       </p>
+      <p>
+        😎 It's about the right time for me to get my teeth into real-world,
+        ground-breaking, planet-saving projects, so if you are a cool team
+        looking for a keen rookie:
+      </p>
+      <div className='mt-8 sm:mt-16'>
+        <Image
+          // src={gitCont}
+          src={gitContCropped}
+          alt='Github contribution graph reading "I need a job"'
+          // width=''
+          // height=''
+          quality='95'
+          // priority={true}
+          className='object-cover border-[0.35rem] rounded-md shadow-xl '
+        />
+      </div>
     </motion.section>
   );
 }

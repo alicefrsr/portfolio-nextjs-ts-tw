@@ -34,7 +34,7 @@ export default function Contact() {
       <SectionHeading>
         GET IN TOUCH <span className='sm:text-4xl'>💬</span>
       </SectionHeading>
-      <div className='text-gray-700 dark:text-white/80'>
+      <div className='text-gray-800 dark:text-white/80'>
         <div className='font-bold flex flex-col sm:flex-row sm:gap-1 justify-center'>
           <p> My CV is available on request, </p>
           <p> feel free to ask if it's of any interest.</p>
@@ -70,7 +70,7 @@ export default function Contact() {
         className='mt-10 flex flex-col gap-4 dark:text-black'
       >
         <input
-          className='h-14 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all focus:outline-focusColor dark:placeholder:text-gray-600'
+          className='h-14 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all focus:outline-focusColor dark:placeholder:text-gray-600'
           type='email'
           name='senderEmail'
           placeholder='Your email'
@@ -78,7 +78,7 @@ export default function Contact() {
           maxLength={500}
         />
         <textarea
-          className='h-52 mb-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all  focus:outline-focusColor  dark:placeholder:text-gray-600'
+          className='h-52 mb-3 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all  focus:outline-focusColor  dark:placeholder:text-gray-600'
           placeholder='Your message'
           name='message'
           required

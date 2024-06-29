@@ -24,4 +24,4 @@ Features, to come:
 
 ## Live site
 
-Here: [Porfolio](https://huggabug.vercel.app)
+Here: [Porfolio v2.0](https://huggabug.vercel.app)

@@ -37,7 +37,7 @@ export default function Skills() {
         {skills.map((skill: string, index: number) => (
           <motion.li
             key={index}
-            className='border border-black/20  dark:border-gray-500 text-base font-fira bg-primaryLight dark:bg-primaryDark text-white px-3 py-2 tracking-normal rounded-md'
+            className='skillTag text-white bg-techTagsLight dark:bg-techTagsDark '
             variants={fadeInAnimationVariants}
             initial='initial'
             whileInView='animate'
@@ -52,11 +52,11 @@ export default function Skills() {
       </ul>
 
       {/* Languages */}
-      <ul className='flex flex-wrap justify-center gap-2 text-lg  mb-12 '>
+      <ul className='flex flex-wrap justify-center gap-2 text-lg mb-12 '>
         {languages.map((language: string, index: number) => (
           <motion.li
             key={index}
-            className='border border-black/20 dark:border-gray-500 text-base font-fira bg-focusColor dark:bg-secondaryDark text-white px-3 py-2 tracking-normal rounded-md dark:text-white/80 '
+            className='skillTag bg-white text-gray-500 dark:bg-white/10 dark:text-white/80'
             variants={fadeInAnimationVariants}
             initial='initial'
             whileInView='animate'
@@ -75,7 +75,7 @@ export default function Skills() {
         {softSkills.map((skill: string, index: number) => (
           <motion.li
             key={index}
-            className='text-base font-fira bg-white text-gray-500 px-3 py-2 tracking-normal rounded-md border border-black/20 dark:border-gray-500  dark:bg-white/10 dark:text-white/80'
+            className='skillTag bg-secondaryLight text-white dark:bg-secondaryDark'
             variants={fadeInAnimationVariants}
             initial='initial'
             whileInView='animate'

@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 // import { HiDownload } from 'react-icons/hi';
 import { FiGithub } from 'react-icons/fi';
 import { LiaLinkedinIn } from 'react-icons/lia';
-import pix from '../public/images/me/bw_LR_portrait.jpg';
+import profilePix from '../public/images/me/bw_LR_portrait.jpg';
 
 import { useSectionInView } from '@/lib/hooks';
 
@@ -43,7 +43,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={pix}
+              src={profilePix}
               alt='Anne smiling'
               width='192'
               height='192'
@@ -61,14 +61,14 @@ export default function Intro() {
       >
         <div className='m-8 flex items-center justify-center'>
           <span>👋</span>
-          <h1 className='pl-2 text-3xl sm:pl-4 sm:text-4xl font-extrabold md:text-5xl xl:text-6xl'>
+          <h1 className='pl-2 text-2xl sm:pl-4 sm:text-4xl font-extrabold md:text-5xl xl:text-6xl'>
             Hello, I'm Anne.{' '}
           </h1>
         </div>
 
         <p className='font-atk   text-[1.2rem] sm:text-[1.4rem] pt-4 leading-9'>
           I'm a self-taught{' '}
-          <strong className='text-primaryLight dark:text-focusColor'>
+          <strong className='text-primaryLight dark:text-primaryDark'>
             web developer
           </strong>{' '}
           focused on building responsive and accessible web apps with{' '}
