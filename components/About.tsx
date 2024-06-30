@@ -81,7 +81,7 @@ export default function About() {
         ground-breaking, planet-saving projects, so if you are a cool team
         looking for a keen rookie:
       </p>
-      <div className='mt-8 sm:mt-16'>
+      {/* <div className='mt-8 sm:mt-16'>
         <Image
           // src={gitCont}
           src={gitContCropped}
@@ -92,7 +92,7 @@ export default function About() {
           // priority={true}
           className='object-cover border-[0.35rem] rounded-md shadow-xl '
         />
-      </div>
+      </div> */}
     </motion.section>
   );
 }
