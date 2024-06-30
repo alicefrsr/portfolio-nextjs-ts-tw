@@ -79,7 +79,7 @@ export default function About() {
       <p>
         😎 It's about the right time for me to get my teeth into real-world,
         ground-breaking, planet-saving projects, so if you are a cool team
-        looking for a keen rookie:
+        looking for a keen rookie, please get in touch.
       </p>
       {/* <div className='mt-8 sm:mt-16'>
         <Image
