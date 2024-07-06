@@ -65,8 +65,7 @@ export default function About() {
           {' '}
           programming{' '}
         </strong>{' '}
-        in my travels and got hooked. (The internet didn't exist when I tinkered
-        on an Apple //e). Now that I have a good foundation in{' '}
+        in my travels and got hooked. Now that I have a good foundation in{' '}
         <strong className='text-primaryLight dark:text-primaryDark'>
           {' '}
           web development

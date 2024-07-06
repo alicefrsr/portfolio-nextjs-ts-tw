@@ -77,6 +77,7 @@ export default function Intro() {
           technologies with <strong>Node.js</strong>, <strong>Express </strong>
           and <strong>MongoDB</strong>.
         </p>
+
         {/* <p className='text-[1.4rem] pb-4 leading-8'>
           Endlessly curious, I'm also exploring the world of NoCode with{' '}
           <strong>Bubble</strong>.

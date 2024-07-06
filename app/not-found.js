@@ -1,5 +1,9 @@
 'use client';
 
+export const metadata = {
+  title: 'Page not found',
+};
+
 import Link from 'next/link';
 import { useActiveSessionContext } from '@/context/ActiveSectionContext';
 
@@ -15,8 +19,9 @@ function NotFound() {
         <span> This page doesn't actually exist.</span>
       </h1>
       <p className='max-w-[40rem] text-xl sm:text-xl'>
-        You've disabled the main navigation by venturing into unchartered
-        territories. Only this button will take you back to basecamp.
+        You've disabled the scrollspy on the main navigation by venturing into
+        unchartered territories. Only this button will take you back to
+        basecamp.
       </p>
       <Link
         href='/'

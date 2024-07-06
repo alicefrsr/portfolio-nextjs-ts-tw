@@ -31,61 +31,63 @@ export default function Contact() {
       }}
       viewport={{ once: true }}
     >
-      <SectionHeading>
-        GET IN TOUCH <span className='sm:text-4xl'>💬</span>
-      </SectionHeading>
-      <div className='text-gray-800 dark:text-white/80'>
-        <div className='font-bold flex flex-col sm:flex-row sm:gap-1 justify-center'>
-          <p> My CV is available on request, </p>
-          <p> feel free to ask if it's of any interest.</p>
+      <section>
+        <SectionHeading>
+          GET IN TOUCH <span className='sm:text-4xl'>💬</span>
+        </SectionHeading>
+        <div className='text-gray-800 dark:text-white/80'>
+          <div className='font-bold flex flex-col sm:flex-row sm:gap-1 justify-center'>
+            <p> My CV is available on request, </p>
+            <p> feel free to ask if it's of any interest.</p>
+          </div>
+          <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
+            <p>Whether you'd like to talk about work, </p>
+            <p>tech stuff, hobbies or the latest storm,</p>
+          </div>
+          <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
+            <p>
+              you can drop me a line on{' '}
+              <a
+                className='underline focus:outline-focusColor'
+                href='mailto:anne3.dev@gmail.com'
+              >
+                anne3.dev@gmail.com
+              </a>{' '}
+            </p>
+            <p> or using this form.</p>
+          </div>
         </div>
-        <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
-          <p>Whether you'd like to talk about work, </p>
-          <p>tech stuff, hobbies or the latest storm,</p>
-        </div>
-        <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
-          <p>
-            you can drop me a line on{' '}
-            <a
-              className='underline focus:outline-focusColor'
-              href='mailto:anne3.dev@gmail.com'
-            >
-              anne3.dev@gmail.com
-            </a>{' '}
-          </p>
-          <p> or using this form.</p>
-        </div>
-      </div>
-      <form
-        // (type inferred here)
-        action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
-          // error handling
-          if (error) {
-            toast.error(error);
-            return;
-          }
-          toast.success('Email sent successfully! :)');
-        }}
-        className='mt-10 flex flex-col gap-4 dark:text-black'
-      >
-        <input
-          className='h-14 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all focus:outline-focusColor dark:placeholder:text-gray-600'
-          type='email'
-          name='senderEmail'
-          placeholder='Your email'
-          required
-          maxLength={500}
-        />
-        <textarea
-          className='h-52 mb-3 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all  focus:outline-focusColor  dark:placeholder:text-gray-600'
-          placeholder='Your message'
-          name='message'
-          required
-          maxLength={5000}
-        />
-        <SubmitBtn />
-      </form>
+        <form
+          // (type inferred here)
+          action={async (formData) => {
+            const { data, error } = await sendEmail(formData);
+            // error handling
+            if (error) {
+              toast.error(error);
+              return;
+            }
+            toast.success('Email sent successfully! :)');
+          }}
+          className='mt-10 flex flex-col gap-4 dark:text-black'
+        >
+          <input
+            className='h-14 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all focus:outline-focusColor dark:placeholder:text-gray-600'
+            type='email'
+            name='senderEmail'
+            placeholder='Your email'
+            required
+            maxLength={500}
+          />
+          <textarea
+            className='h-52 mb-3 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 focus:dark:bg-opacity-100 transition-all  focus:outline-focusColor  dark:placeholder:text-gray-600'
+            placeholder='Your message'
+            name='message'
+            required
+            maxLength={5000}
+          />
+          <SubmitBtn />
+        </form>
+      </section>
     </motion.section>
   );
 }
