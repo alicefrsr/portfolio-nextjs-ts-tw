@@ -21,7 +21,7 @@ const projectsData = [
     summary: 'React quiz with 15 questions to test your knowledge!',
     desc: 'Features include a timer, a cancel/exit button, a highscore saved and updated on each round, and a restart button.',
     other:
-      'Basic RESTFul API built for the back-end with Express and deployed on Vercel: https://react-quiz-weld.vercel.app/api/V1/questions.',
+      'Basic RESTful API built for the back-end with Express and deployed on Vercel: https://react-quiz-weld.vercel.app/api/V1/questions.',
     tech: [
       'React',
       'Context API',
@@ -33,6 +33,7 @@ const projectsData = [
     demoURL: 'https://react-quiz-6l23.vercel.app/',
     codeURL: 'https://github.com/alicefrsr/react-quiz',
     categories: ['React', 'Full Stack'],
+    tag: 'Fullstack',
   },
   {
     id: 8,
@@ -55,6 +56,7 @@ const projectsData = [
     demoURL: 'https://chiaras-pizza.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/react-router-pizza',
     categories: ['React', 'Full Stack', 'Responsive'],
+    tag: 'Front-end',
   },
   {
     id: 6,
@@ -82,6 +84,7 @@ const projectsData = [
     demoURL: 'https://bits-and-bobs.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/react-bits-and-bobs',
     categories: ['React'],
+    tag: 'Front-end',
   },
 
   {
@@ -98,6 +101,7 @@ const projectsData = [
     demoURL: 'https://splitter-demo.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/Splitter',
     categories: ['Vanilla JS', 'HTML/CSS Integration', 'Responsive'],
+    tag: 'Front-end',
   },
   {
     id: 4,
@@ -115,6 +119,7 @@ const projectsData = [
     demoURL: 'https://devfinder-demo.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/React-devfinder-App',
     categories: ['React', 'HTML/CSS Integration', 'Responsive'],
+    tag: 'Front-end',
   },
   // {
   //   id: 5,
@@ -129,6 +134,7 @@ const projectsData = [
   //   demoURL: 'https://another-todoapp.netlify.app/',
   //   codeURL: 'https://github.com/alicefrsr/React-todoApp',
   //   categories: ['React'],
+  //  tag: 'Front-end',
   // },
   // {
   //   id: 1,
@@ -143,6 +149,7 @@ const projectsData = [
   //   demoURL: 'https://food-ai-demo.netlify.app/',
   //   codeURL: 'https://github.com/alicefrsr/Omnifood',
   //   categories: ['HTML/CSS Integration', 'Responsive'],
+  //  tag: 'Landing page',
   // },
   // {
   //   id: 2,
@@ -157,6 +164,7 @@ const projectsData = [
   //   demoURL: 'https://guessing-game-demo.netlify.app/',
   //   codeURL: 'https://github.com/alicefrsr/GuessTheNumber',
   //   categories: ['Vanilla JS'],
+  //  tag: 'Front-end',
   // },
 
   {
@@ -182,6 +190,7 @@ const projectsData = [
     demoURL: 'https://expense-tracker-app-9kw2.onrender.com',
     codeURL: 'https://github.com/alicefrsr/React-expense-tracker-App',
     categories: ['React', 'Full Stack', 'Responsive'],
+    tag: 'Fullstack',
   },
   {
     id: 10,
@@ -208,6 +217,7 @@ const projectsData = [
     demoURL: 'https://e-commerce-demo-proshop.onrender.com',
     codeURL: 'https://github.com/alicefrsr/e-commerce-demo',
     categories: ['React', 'Full Stack'],
+    tag: 'Fullstack',
   },
   // {
   //   id: 11,
@@ -221,6 +231,7 @@ const projectsData = [
   //   demoURL: 'Coming soon!',
   //   codeURL: 'Private repo for now, coming soon!',
   //   categories: ['Professional'],
+  // tag: 'Landing page',
   // },
   {
     id: 101,
@@ -235,6 +246,7 @@ const projectsData = [
     demoURL: 'https://huggabug.netlify.app/',
     codeURL: 'https://github.com/alicefrsr/react-tw-portfolio',
     categories: ['React'],
+    tag: 'Front-end',
   },
 ] as const;
 
