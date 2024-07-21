@@ -70,16 +70,18 @@ export default function Project({
           </ul>
           {/* External links */}
           <div className='mt-4 flex gap-2'>
-            <a
-              href={demoURL}
-              target='_blank'
-              rel='noreferrer'
-              title='Live demo (Opens in new tab)'
-              className='flex items-center hover:cursor-pointer outline-none focus:text-focusColor hover:text-focusColor active:text-focusColor duration-200'
-            >
-              <LuExternalLink size={25} />
-              <span className='sr-only'>Live demo. Opens in new tab</span>
-            </a>
+            <ToolTip>
+              <a
+                href={demoURL}
+                target='_blank'
+                rel='noreferrer'
+                title='Live demo (Opens in new tab)'
+                className='flex items-center hover:cursor-pointer outline-none focus:text-focusColor hover:text-focusColor active:text-focusColor duration-200'
+              >
+                <LuExternalLink size={25} />
+                <span className='sr-only'>Live demo. Opens in new tab</span>
+              </a>
+            </ToolTip>
 
             <a
               href={codeURL}

@@ -30,7 +30,7 @@ export default function Skills() {
       id='skills'
       className='max-w-[50rem] text-center sm:mb-40 scroll-mt-28 mb-28'
     >
-      <SectionHeading>Some of my Skills</SectionHeading>
+      <SectionHeading>Some Skills & my Toolkit</SectionHeading>
 
       {/* Hard skills */}
       <ul className='flex flex-wrap justify-center gap-2 text-lg mb-12 '>
