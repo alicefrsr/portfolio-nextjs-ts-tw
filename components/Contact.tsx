@@ -40,15 +40,15 @@ export default function Contact() {
             <p> My CV is available on request, </p>
             <p> feel free to ask if it's of any interest.</p>
           </div>
-          <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
+          {/* <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
             <p>Whether you'd like to talk about work, </p>
             <p>tech stuff, hobbies or the latest storm,</p>
-          </div>
+          </div> */}
           <div className='flex flex-col sm:flex-row sm:gap-1 justify-center'>
             <p>
-              you can drop me a line on{' '}
+              Please drop me a line on{' '}
               <a
-                className='underline focus:outline-focusColor'
+                className='underline outline-none focus:outline-focusColor rounded-md'
                 href='mailto:anne3.dev@gmail.com'
               >
                 anne3.dev@gmail.com

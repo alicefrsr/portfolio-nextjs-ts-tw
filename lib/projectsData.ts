@@ -18,7 +18,7 @@ const projectsData = [
     // imageURL: '../../../img/quiz.png ',
     imageURL: quizImg,
     title: 'Quiz',
-    summary: 'React quiz with 15 questions to test your knowledge!',
+    summary: 'Timed quiz with 15 questions to test your React knowledge.',
     desc: 'Features include a timer, a cancel/exit button, a highscore saved and updated on each round, and a restart button.',
     other:
       'Basic RESTful API built for the back-end with Express and deployed on Vercel: https://react-quiz-weld.vercel.app/api/V1/questions.',
@@ -41,7 +41,7 @@ const projectsData = [
     // imageURL: '../../../img/pizzaApp.png ',
     imageURL: pizzaImg,
     title: "Chiara's Pizza Place",
-    summary: 'Order your pizzas here and pay on delivery!',
+    summary: 'Order your favorite pizzas here and pay on delivery.',
     desc: "Add and remove pizzas to/from your cart, use geolocation to input address for delivery, search for orders. We'll tell you how long you have to wait and if you are really hungry, you can set your order to priority, we'll speed up that order for you!",
     other:
       "(Data fetched from existing API, I didn't build this back-end myself.)",
@@ -65,7 +65,7 @@ const projectsData = [
     imageURL: bitsbobsImg,
     title: 'Bits & Bobs',
     summary:
-      'Personal learning website I built to gather components and mini-apps while exploring how React works.',
+      'My React lab: personal learning website built to gather components and mini-apps while exploring how React works.',
     desc: 'Having everything in one place helps my learning process. Learning React Router was a good excuse to build this. Some are basic exercises from various tutorials, some my own as I try to figure out how to do something new.',
     other:
       'No back-end, only local storage data persistence on some mini-apps when relevant (to-do app, movie-app etc).',
@@ -93,7 +93,8 @@ const projectsData = [
     // imageURL: '../../../img/splitter.png ',
     imageURL: splitterImg,
     title: 'Splitter',
-    summary: 'Tip calculator / bill splitter app.',
+    summary:
+      'Tip calculator / bill splitter app. My first vanilla javascript app.',
     desc: 'Enter the bill amount, number of people to split between and chose the tip, the app breaks down the total to pay per person. Frontend Mentor challenge (Junior level): to practice CSS Flexbox and think in Javascript without following a tutorial! UI changes for accessibility.',
     other:
       'Visual reference: https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX',

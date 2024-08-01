@@ -7,7 +7,7 @@
 }
 
 .btnToggleTheme {
-  @apply outline-focusColor fixed bottom-5 right-5 bg-navLight w-[3rem] h-[3rem] p-[0.8rem] bg-opacity-70 backdrop-blur-[0.5rem] border dark:border-white/30 border-black/30 shadow-md rounded-full flex items-center justify-center focus:scale-110 hover:scale-[1.15] hover:shadow-md hover:border-opacity-100 hover:shadow-gray-400 active:scale-105 transition-all dark:bg-navDark dark:hover:shadow-gray-950;
+  @apply outline-none focus:outline-focusColor fixed bottom-5 right-5 bg-navLight w-[3rem] h-[3rem] p-[0.8rem] bg-opacity-70 backdrop-blur-[0.5rem] border dark:border-white/30 border-black/30 shadow-md rounded-full flex items-center justify-center focus:scale-110 hover:scale-[1.15] hover:shadow-md hover:border-opacity-100 hover:shadow-gray-400 active:scale-105 transition-all dark:bg-navDark dark:hover:shadow-gray-950;
 }
 
 .skillTag {

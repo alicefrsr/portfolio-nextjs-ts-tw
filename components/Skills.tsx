@@ -28,7 +28,7 @@ export default function Skills() {
     <section
       ref={ref}
       id='skills'
-      className='max-w-[50rem] text-center sm:mb-40 scroll-mt-28 mb-28'
+      className='h-screen max-w-[50rem] text-center sm:mb-40 scroll-mt-28 mb-28'
     >
       <SectionHeading>Skills & Toolkit</SectionHeading>
 
