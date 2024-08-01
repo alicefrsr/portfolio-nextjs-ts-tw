@@ -36,13 +36,7 @@ module.exports = {
         cardBgDark: '#1E293B',
         techTagsDark: '#724E69',
         secondaryDark: '#6A618D',
-
         focusColor: '#ffa565',
-        // not in use
-        // lightOrange: '#ffdfc3',
-        // oldPink: '#d09fb6',
-        // brightPinkTW: '#f472b6',
-        // brightPinkDracula: '#FF78C6',
       },
     },
   },
