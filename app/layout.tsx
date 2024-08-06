@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import ActiveSectionContextProvider from '@/context/ActiveSectionContext';
 import ThemeToggle from '@/components/ThemeToggle';
 import { Toaster } from 'react-hot-toast';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,6 +26,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='!scroll-smooth'>
+      <head>
+        <Script
+          defer
+          src='https://cloud.umami.is/script.js'
+          data-website-id='a1ebad69-b6d9-4eba-b0b6-16c29241c431'
+          // data-website-id={process.env.NEXT_PUBLIC_UMAMI_ID}
+        ></Script>
+      </head>
       <body
         className={`${inter.className} bg-[#fff7f3] dark:bg-[#0F172A] text-gray-900 dark:text-gray-50 dark:text-opacity-80 relative pt-28 sm:pt-36`}
       >
